@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Código não encontrado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .box { max-width: 500px; margin: auto; text-align: center; }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>{{ message }}</h2>
+
+        <p>Verifique se você digitou o código OBD2 corretamente.</p>
+        <p>Exemplo: <strong>P0300</strong>, <strong>P0420</strong>, <strong>P0171</strong></p>
+
+        {% if searched_code %}
+        <p>Código digitado: <strong>{{ searched_code }}</strong></p>
+        {% endif %}
+
+        <form action="/" method="GET">
+            <button>Fazer nova busca</button>
+        </form>
+    </div>
+</body>
+</html>
+
