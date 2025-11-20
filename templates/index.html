@@ -1,58 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesquisa de Código OBD2</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background: #f5f5f5;
-        }
+{% extends "base.html" %}
 
-        .container {
-            max-width: 500px;
-            margin: auto;
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+{% block content %}
+<h2>Consultar Código OBD2</h2>
 
-        input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            font-size: 1rem;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            background: #007bff;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            font-size: 1rem;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Pesquisa de Código OBD2</h1>
-        <form action="/buscar" method="POST">
-            <input type="text" name="code" placeholder="Digite o código OBD2" required>
-            <button type="submit">Buscar</button>
-        </form>
-    </div>
-</body>
-</html>
+<form method="POST" action="/result">
+    <label>Digite o código (ex: P0300):</label><br><br>
+    <input type="text" name="code" required>
+    <button type="submit">Buscar</button>
+</form>
+{% endblock %}
