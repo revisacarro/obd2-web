@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Consultar Código OBD2</h2>
-
+<h2>Buscar Código de Falha</h2>
 <form method="POST" action="/result">
-    <label>Digite o código (ex: P0300):</label><br><br>
-    <input type="text" name="code" required>
+    <label for="codigo">Código:</label>
+    <input type="text" id="codigo" name="codigo" required>
     <button type="submit">Buscar</button>
 </form>
 {% endblock %}

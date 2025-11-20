@@ -3,20 +3,18 @@
 {% block content %}
 <h2>Resultado da Busca</h2>
 
-{% if data %}
-    <h3>{{ data.code }}</h3>
-    <p><strong>Descrição:</strong> {{ data.description }}</p>
-    <p><strong>Causas possíveis:</strong> {{ data.causes }}</p>
+{% if info %}
+    <h3>{{ info.codigo }}</h3>
+    <p><strong>Descrição:</strong> {{ info.descricao }}</p>
 
-    {% if data.video %}
-        <h3>Vídeo relacionado</h3>
-        <iframe width="560" height="315" src="{{ data.video }}" frameborder="0" allowfullscreen></iframe>
+    {% if info.causes %}
+        <p><strong>Causas possíveis:</strong> {{ info.causes }}</p>
     {% endif %}
 
-    <!-- Anúncio interno -->
-    <div class="ad-slot ad-content">
-        Espaço para anúncio no conteúdo
-    </div>
+    {% if info.video %}
+        <h3>Vídeo relacionado</h3>
+        <iframe width="560" height="315" src="{{ info.video }}" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
 
 {% else %}
     <p>Código não encontrado.</p>
