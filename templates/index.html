@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>OBD2 Search</title>
+</head>
+<body>
+    <h1>OBD2 Code Search</h1>
+    <form method="POST">
+        <input type="text" name="code" placeholder="Digite o código OBD2">
+        <button type="submit">Buscar</button>
+    </form>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li style="color:red;">{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado do Código {{ code }}</title>
+</head>
+<body>
+    <h1>Código: {{ code }}</h1>
+    <p>Descrição: {{ info.descricao }}</p>
+    <p>Causas:</p>
+    <ul>
+        {% for causa in info.causas %}
+            <li>{{ causa }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Vídeo explicativo:</h3>
+    <iframe width="560" height="315" src="{{ info.video }}" frameborder="0" allowfullscreen></iframe>
+
+    <br><br>
+    <a href="{{ url_for('index') }}">Voltar</a>
+</body>
+</html>
