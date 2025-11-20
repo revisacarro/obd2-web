@@ -27,13 +27,14 @@ def result():
 def diagnostico_guiado():
     return render_template("diagnostico_guiado.html", title="Diagnóstico Guiado")
 
+@app.route("/produtos")
+def produtos():
+    return render_template("produtos.html", title="Produtos Recomendados")
+
 @app.route("/about")
 def about():
-    return "<h2>Sobre</h2><p>Página ainda em desenvolvimento.</p>"
+    return render_template("about.html", title="Sobre o Projeto")
 
-@app.route("/popular")
-def popular():
-    return "<h2>Códigos Populares</h2><p>Em breve.</p>"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)

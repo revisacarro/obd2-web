@@ -49,6 +49,17 @@
             text-align: center;
             background: #ddd;
         }
+
+        /* Estilo para anúncios */
+        .ad-slot {
+            border: 1px dashed #aaa;
+            padding: 10px;
+            background: #f9f9f9;
+            color: #555;
+            font-size: 14px;
+            text-align: center;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -58,23 +69,31 @@
     <nav>
         <a href="/">Início</a>
         <a href="/diagnostico-guiado">Diagnóstico Guiado</a>
-        <a href="/popular">Códigos Populares</a>
+        <a href="/produtos">Produtos</a>
         <a href="/about">Sobre</a>
     </nav>
 </header>
+
+<!-- Topo: placeholder para anúncio -->
+<div class="ad-slot ad-top">
+    Espaço para anúncio topo
+</div>
 
 <div class="container">
     {% block content %}{% endblock %}
 </div>
 
 <footer>
+    <!-- Rodapé com anúncio -->
+    <div class="ad-slot ad-footer">
+        Espaço para anúncio rodapé
+    </div>
     © <span id="currentYear"></span> OBD2 Web — Todos os direitos reservados.
 </footer>
 
 <script>
     document.getElementById('currentYear').textContent = new Date().getFullYear();
 </script>
-
 
 </body>
 </html>
