@@ -26,7 +26,7 @@ Tudo rodando dentro de **Docker**, pronto para qualquer computador.
 ## 🚀 Funcionalidades
 
 - Busca interativa de códigos OBD2  
-- Página de resultado com descrição, causas e vídeo incorporado  
+- Página de resultado com descrição 
 - Base de dados JSON para adicionar novos códigos facilmente  
 - Dockerfile pronto para rodar o site em qualquer máquina
 
