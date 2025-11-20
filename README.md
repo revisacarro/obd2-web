@@ -1,3 +1,4 @@
+```bash
 obd2-web/
 │
 ├── app.py            # Script principal Flask
@@ -7,7 +8,7 @@ obd2-web/
 └── templates/
     ├── index.html    # Formulário de busca
     └── result.html   # Página de resultado
-
+``
 
 
 # OBD2 Code Search Web
