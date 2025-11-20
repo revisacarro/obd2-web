@@ -1,0 +1,12 @@
+{
+  "P0301": {
+    "descricao": "Falha de ignição no cilindro 1",
+    "causas": ["Vela gasta", "Bobina ruim", "Bico entupido"],
+    "video": "https://www.youtube.com/embed/SEU_VIDEO_ID"
+  },
+  "P0420": {
+    "descricao": "Eficiência do catalisador abaixo do limiar",
+    "causas": ["Catalisador ruim", "Sensor de oxigênio falho"],
+    "video": "https://www.youtube.com/embed/OUTRO_VIDEO_ID"
+  }
+}

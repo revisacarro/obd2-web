@@ -1,12 +1,5150 @@
-{
-  "P0301": {
-    "descricao": "Falha de ignição no cilindro 1",
-    "causas": ["Vela gasta", "Bobina ruim", "Bico entupido"],
-    "video": "https://www.youtube.com/embed/SEU_VIDEO_ID"
-  },
-  "P0420": {
-    "descricao": "Eficiência do catalisador abaixo do limiar",
-    "causas": ["Catalisador ruim", "Sensor de oxigênio falho"],
-    "video": "https://www.youtube.com/embed/OUTRO_VIDEO_ID"
-  }
-}
+[
+    {
+        "codigo": "TABELA",
+        "descricao": "DE CODIGOS DE FALHAS COMPLETO"
+    },
+    {
+        "codigo": "SISTEMA",
+        "descricao": "OBD2"
+    },
+    {
+        "codigo": "B1000",
+        "descricao": "FalhaECU Falha na ECU"
+    },
+    {
+        "codigo": "B3040",
+        "descricao": "ComunMotorImobil Comunicação entre a ECU do motor e o imobilizador"
+    },
+    {
+        "codigo": "B3042",
+        "descricao": "ComunMotorImobil Comunicação entre a ECU do motor e o imobilizador"
+    },
+    {
+        "codigo": "B3043",
+        "descricao": "ComunMotorImobil Comunicação entre a ECU do motor e o imobilizador"
+    },
+    {
+        "codigo": "B3045",
+        "descricao": "SinalSistAlarme Sinal do sistema de alarme"
+    },
+    {
+        "codigo": "B3048",
+        "descricao": "SinalSistAlarme Sinal do sistema de alarme"
+    },
+    {
+        "codigo": "B3050",
+        "descricao": "CircImobilizador Circuito do imobilizador"
+    },
+    {
+        "codigo": "B3053",
+        "descricao": "CircImobilizador Circuito do imobilizador"
+    },
+    {
+        "codigo": "B3055",
+        "descricao": "SinalTransponder Sinal do transponder"
+    },
+    {
+        "codigo": "B3056",
+        "descricao": "ChaveNaoProgr Chave não programada"
+    },
+    {
+        "codigo": "B3057",
+        "descricao": "ImobNaoProgramad Imobilizador não programado"
+    },
+    {
+        "codigo": "B3059",
+        "descricao": "ComunMotorImobil Comunicação entre a ECU do motor e o imobilizador"
+    },
+    {
+        "codigo": "B3060",
+        "descricao": "ChaveNaoProgr Chave não programada"
+    },
+    {
+        "codigo": "B3061",
+        "descricao": "ChaveIncorreta Chave Incorreta"
+    },
+    {
+        "codigo": "B3077",
+        "descricao": "ChaveIncorreta Chave Incorreta"
+    },
+    {
+        "codigo": "C0035",
+        "descricao": "SensVelocRodaDE Sensor de velocidade da roda dianteira esquerda"
+    },
+    {
+        "codigo": "C0040",
+        "descricao": "SensVelocRodaDD Sensor de velocidade da roda dianteira direita"
+    },
+    {
+        "codigo": "C0045",
+        "descricao": "SensVelocRodaTE Sensor de velocidade da roda traseira esquerda"
+    },
+    {
+        "codigo": "C0050",
+        "descricao": "SensVelocRodaTD Sensor de velocidade da roda traseira direita"
+    },
+    {
+        "codigo": "C0060",
+        "descricao": "ValvulaSaidaDE Válvula de saída dianteira esquerda"
+    },
+    {
+        "codigo": "C0065",
+        "descricao": "ValvulaEntradaDE Válvula de entrada dianteira esquerda"
+    },
+    {
+        "codigo": "C0070",
+        "descricao": "ValvulaSaidaDD Válvula de saída dianteira direita"
+    },
+    {
+        "codigo": "C0075",
+        "descricao": "ValvulaEntradaDD Válvula de entrada dianteira direita"
+    },
+    {
+        "codigo": "C0080",
+        "descricao": "ValvulaSaidaTE Válvula de saída traseira esquerda"
+    },
+    {
+        "codigo": "C0085",
+        "descricao": "ValvulaEntradaTE Válvula de entrada traseira esquerda"
+    },
+    {
+        "codigo": "C0090",
+        "descricao": "ValvulaSaidaTD Válvula de saída traseira direita"
+    },
+    {
+        "codigo": "C0095",
+        "descricao": "ValvulaEntradaTD Válvula de entrada traseira direita"
+    },
+    {
+        "codigo": "C0110",
+        "descricao": "BombaHidraulABS Bomba hidraulica ABS"
+    },
+    {
+        "codigo": "C0121",
+        "descricao": "ReleValvula Relé da válvula"
+    },
+    {
+        "codigo": "C0141",
+        "descricao": "ValvContrTracao Válvula de tração"
+    },
+    {
+        "codigo": "C0146",
+        "descricao": "ValvContrTracao Válvula de controle de tração"
+    },
+    {
+        "codigo": "C0151",
+        "descricao": "ValvContrTracao Válvula de controle de tração"
+    },
+    {
+        "codigo": "1",
+        "descricao": ""
+    },
+    {
+        "codigo": "C0156",
+        "descricao": "ValvContrTracao Válvula de controle de tração"
+    },
+    {
+        "codigo": "C0161",
+        "descricao": "InterruptorFreio Interruptor do freio"
+    },
+    {
+        "codigo": "C0221",
+        "descricao": "SensVelocRodaDD Sensor de velocidade da roda dianteira direita"
+    },
+    {
+        "codigo": "C0222",
+        "descricao": "SensVelocRodaDD Sensor de velocidade da roda dianteira direita"
+    },
+    {
+        "codigo": "C0223",
+        "descricao": "SensVelocRodaDD Sensor de velocidade da roda dianteira direita"
+    },
+    {
+        "codigo": "C0225",
+        "descricao": "SensVelocRodaDE Sensor de velocidade da roda dianteira esquerda"
+    },
+    {
+        "codigo": "C0226",
+        "descricao": "SensVelocRodaDE Sensor de velocidade da roda dianteira esquerda"
+    },
+    {
+        "codigo": "C0227",
+        "descricao": "SensVelocRodaDE Sensor de velocidade da roda dianteira esquerda"
+    },
+    {
+        "codigo": "C0229",
+        "descricao": "SensorVelocDiant Sensor de velocidade dianteiro"
+    },
+    {
+        "codigo": "C0235",
+        "descricao": "SensorVelocTras Sensor de velociadde traseiro"
+    },
+    {
+        "codigo": "C0236",
+        "descricao": "SinalRotacaoMtr Sinal de rotação do motor"
+    },
+    {
+        "codigo": "C0237",
+        "descricao": "SensorVelocTras Sensor de velociadde traseiro"
+    },
+    {
+        "codigo": "C0238",
+        "descricao": "SensVelocidRoda Sensor de velocidade da roda"
+    },
+    {
+        "codigo": "C0241",
+        "descricao": "CorteIgnInjecao Corte da ignição/injeção"
+    },
+    {
+        "codigo": "C0242",
+        "descricao": "ValvulaSaidaDD Válvula de saída dianteira direita"
+    },
+    {
+        "codigo": "C0243",
+        "descricao": "ValvulaEntradaDD Válvula de entrada dianteira direita"
+    },
+    {
+        "codigo": "C0244",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "C0245",
+        "descricao": "SensVelocidRoda Sensor de velocidade da roda"
+    },
+    {
+        "codigo": "C0246",
+        "descricao": "ValvulaSaidaDE Válvula de saída dianteira esquerda"
+    },
+    {
+        "codigo": "C0247",
+        "descricao": "ValvulaEntradaDE Válvula de entrada dianteira esquerda"
+    },
+    {
+        "codigo": "C0248",
+        "descricao": "ValvulaSaidaDE Válvula de saída dianteira esquerda"
+    },
+    {
+        "codigo": "C0251",
+        "descricao": "ValvulaTraseira Válvula traseira"
+    },
+    {
+        "codigo": "C0252",
+        "descricao": "ValvulaTraseira Válvula traseira"
+    },
+    {
+        "codigo": "C0253",
+        "descricao": "ValvulaTraseira Válvula traseira"
+    },
+    {
+        "codigo": "C0254",
+        "descricao": "ValvulaTraseira Válvula traseira"
+    },
+    {
+        "codigo": "C0265",
+        "descricao": "ReleAlimentABS Relé de alimentação do ABS"
+    },
+    {
+        "codigo": "C0266",
+        "descricao": "ReleAlimentABS Relé de alimentação do ABS"
+    },
+    {
+        "codigo": "C0267",
+        "descricao": "MotorBomba Motor da bomba"
+    },
+    {
+        "codigo": "C0268",
+        "descricao": "MotorBomba Motor da bomba"
+    },
+    {
+        "codigo": "C0269",
+        "descricao": "SensorPressao Sensor de pressão"
+    },
+    {
+        "codigo": "C0271",
+        "descricao": "FalhaMemoriaRAM Falha de memória RAM"
+    },
+    {
+        "codigo": "C0272",
+        "descricao": "FalhaMemoriaROM Falha de memória ROM"
+    },
+    {
+        "codigo": "C0273",
+        "descricao": "ECU ABS ECU do ABS"
+    },
+    {
+        "codigo": "C0274",
+        "descricao": "ValvulaEntrada Válvula de entrada"
+    },
+    {
+        "codigo": "C0281",
+        "descricao": "InterruptorFreio Interruptor do freio"
+    },
+    {
+        "codigo": "C0284",
+        "descricao": "ECU ABS ECU do ABS"
+    },
+    {
+        "codigo": "C0286",
+        "descricao": "IndicadorABS Indicador do ABS"
+    },
+    {
+        "codigo": "C0288",
+        "descricao": "IndicadorABS Indicador do ABS"
+    },
+    {
+        "codigo": "C0550",
+        "descricao": "FalhaECU Falha na ECU"
+    },
+    {
+        "codigo": "C0551",
+        "descricao": "ControleTracao Controle de tração"
+    },
+    {
+        "codigo": "C0800",
+        "descricao": "Tensao Bateria Tensão da bateria"
+    },
+    {
+        "codigo": "P0001",
+        "descricao": "RegFluxoCombust Regulador de fluxo de combustível"
+    },
+    {
+        "codigo": "P0002",
+        "descricao": "RegFluxoCombust Regulador de fluxo de combustível"
+    },
+    {
+        "codigo": "P0003",
+        "descricao": "RegFluxoCombust Regulador de fluxo de combustível"
+    },
+    {
+        "codigo": "P0004",
+        "descricao": "RegFluxoCombust Regulador de fluxo de combustível"
+    },
+    {
+        "codigo": "2",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0005",
+        "descricao": "InterInercial Interruptor inercial"
+    },
+    {
+        "codigo": "P0006",
+        "descricao": "InterInercial Interruptor inercial"
+    },
+    {
+        "codigo": "P0007",
+        "descricao": "InterInercial Interruptor inercial"
+    },
+    {
+        "codigo": "P0008",
+        "descricao": "SistPosicMotor Sistema de posição do motor"
+    },
+    {
+        "codigo": "P0009",
+        "descricao": "SistPosicMotor Sistema de posição do motor"
+    },
+    {
+        "codigo": "P0010",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0011",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0012",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0013",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0014",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0015",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0016",
+        "descricao": "PosVirabComValv Sincronismo virabrequim e comando de válvulas"
+    },
+    {
+        "codigo": "P0017",
+        "descricao": "PosVirabComValv Sincronismo virabrequim e comando de válvulas"
+    },
+    {
+        "codigo": "P0018",
+        "descricao": "PosVirabComValv Sincronismo virabrequim e comando de válvulas"
+    },
+    {
+        "codigo": "P0019",
+        "descricao": "PosVirabComValv Sincronismo virabrequim e comando de válvulas"
+    },
+    {
+        "codigo": "P0020",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0021",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0022",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0023",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0024",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0025",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0026",
+        "descricao": "CircValvEntrada Circuito da válvula de entrada"
+    },
+    {
+        "codigo": "P0027",
+        "descricao": "CircValvSaida Circuito da válvula de saída"
+    },
+    {
+        "codigo": "P0028",
+        "descricao": "CircValvEntrada Circuito da válvula de entrada"
+    },
+    {
+        "codigo": "P0029",
+        "descricao": "CircValvSaida Circuito da válvula de saída"
+    },
+    {
+        "codigo": "P0030",
+        "descricao": "AquecLambda1B1 Aquecedor da sonda lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0031",
+        "descricao": "AquecLambda1B1 Aquecedor da sonda lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0032",
+        "descricao": "AquecLambda1B1 Aquecedor da sonda lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0033",
+        "descricao": "ValvPressaoTurbo Válvula de pressão do turbo"
+    },
+    {
+        "codigo": "P0034",
+        "descricao": "ValvPressaoTurbo Válvula de pressão do turbo"
+    },
+    {
+        "codigo": "P0035",
+        "descricao": "ValvPressaoTurbo Válvula de pressão do turbo"
+    },
+    {
+        "codigo": "P0036",
+        "descricao": "AquecLambda2B1 Aquecedor da sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0037",
+        "descricao": "AquecLambda2B1 Aquecedor da sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0038",
+        "descricao": "AquecLambda2B1 Aquecedor da sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0039",
+        "descricao": "ValvDerivTurbo Válvula de derivação do turbo"
+    },
+    {
+        "codigo": "P0040",
+        "descricao": "SinalSondaLambda Sinal da sonda lambda"
+    },
+    {
+        "codigo": "P0041",
+        "descricao": "SinalSondaLambda Sinal da sonda lambda"
+    },
+    {
+        "codigo": "P0042",
+        "descricao": "AquecLambda3B1 Aquecedor da sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0043",
+        "descricao": "AquecLambda3B1 Aquecedor da sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0044",
+        "descricao": "AquecLambda3B1 Aquecedor da sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0045",
+        "descricao": "ValvPressaoTurbo Válvula de pressão do turbo"
+    },
+    {
+        "codigo": "P0046",
+        "descricao": "ValvPressaoTurbo Válvula de pressão do turbo"
+    },
+    {
+        "codigo": "P0047",
+        "descricao": "ValvPressaoTurbo Válvula de pressão do turbo"
+    },
+    {
+        "codigo": "P0048",
+        "descricao": "ValvPressaoTurbo Válvula de pressão do turbo"
+    },
+    {
+        "codigo": "P0049",
+        "descricao": "Turbina Turbina"
+    },
+    {
+        "codigo": "3",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0050",
+        "descricao": "AquecLambda1B2 Aquecedor da sonda lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0051",
+        "descricao": "AquecLambda1B2 Aquecedor da sonda lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0052",
+        "descricao": "AquecLambda1B2 Aquecedor da sonda lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0053",
+        "descricao": "AquecLambda1B1 Aquecedor da sonda lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0054",
+        "descricao": "AquecLambda2B1 Aquecedor da sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0055",
+        "descricao": "AquecLambda3B1 Aquecedor da sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0056",
+        "descricao": "AquecLambda2B2 Aquecedor da sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0057",
+        "descricao": "AquecLambda2B2 Aquecedor da sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0058",
+        "descricao": "AquecLambda2B2 Aquecedor da sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0059",
+        "descricao": "AquecLambda1B2 Aquecedor da sonda lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0060",
+        "descricao": "AquecLambda2B2 Aquecedor da sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0061",
+        "descricao": "AquecLambda3B2 Aquecedor da sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0062",
+        "descricao": "AquecLambda3B2 Aquecedor da sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0063",
+        "descricao": "AquecLambda3B2 Aquecedor da sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0064",
+        "descricao": "AquecLambda3B2 Aquecedor da sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0065",
+        "descricao": "InjetorAr Injetor de ar"
+    },
+    {
+        "codigo": "P0066",
+        "descricao": "InjetorAr Injetor de ar"
+    },
+    {
+        "codigo": "P0067",
+        "descricao": "InjetorAr Injetor de ar"
+    },
+    {
+        "codigo": "P0068",
+        "descricao": "RelMAPMAFBorb Relação MAP, MAF e posição da borboleta"
+    },
+    {
+        "codigo": "P0069",
+        "descricao": "RelMAPPresBarom Relação MAP e pressão barométrica"
+    },
+    {
+        "codigo": "P0070",
+        "descricao": "TemperArExterior Temperatura do ar exterior"
+    },
+    {
+        "codigo": "P0071",
+        "descricao": "TemperArExterior Temperatura do ar exterior"
+    },
+    {
+        "codigo": "P0072",
+        "descricao": "TemperArExterior Temperatura do ar exterior"
+    },
+    {
+        "codigo": "P0073",
+        "descricao": "TemperArExterior Temperatura do ar exterior"
+    },
+    {
+        "codigo": "P0074",
+        "descricao": "TemperArExterior Temperatura do ar exterior"
+    },
+    {
+        "codigo": "P0075",
+        "descricao": "CircValvEntrada Circuito da válvula de entrada"
+    },
+    {
+        "codigo": "P0076",
+        "descricao": "CircValvEntrada Circuito da válvula de entrada"
+    },
+    {
+        "codigo": "P0077",
+        "descricao": "CircValvEntrada Circuito da válvula de entrada"
+    },
+    {
+        "codigo": "P0078",
+        "descricao": "CircValvSaida Circuito da válvula de saída"
+    },
+    {
+        "codigo": "P0079",
+        "descricao": "CircValvSaida Circuito da válvula de saída"
+    },
+    {
+        "codigo": "P0080",
+        "descricao": "CircValvSaida Circuito da válvula de saída"
+    },
+    {
+        "codigo": "P0081",
+        "descricao": "CircValvEntrada Circuito da válvula de entrada"
+    },
+    {
+        "codigo": "P0082",
+        "descricao": "CircValvEntrada Circuito da válvula de entrada"
+    },
+    {
+        "codigo": "P0083",
+        "descricao": "CircValvEntrada Circuito da válvula de entrada"
+    },
+    {
+        "codigo": "P0084",
+        "descricao": "CircValvSaida Circuito da válvula de saída"
+    },
+    {
+        "codigo": "P0085",
+        "descricao": "CircValvSaida Circuito da válvula de saída"
+    },
+    {
+        "codigo": "P0086",
+        "descricao": "CircValvSaida Circuito da válvula de saída"
+    },
+    {
+        "codigo": "P0087",
+        "descricao": "PressaoSistema Pressão do sistema"
+    },
+    {
+        "codigo": "P0088",
+        "descricao": "PressaoSistema Pressão do sistema"
+    },
+    {
+        "codigo": "P0089",
+        "descricao": "RegFluxoCombust Regulador de fluxo de combustível"
+    },
+    {
+        "codigo": "P0090",
+        "descricao": "ValvDosadComb Válvula dosadora de combustível"
+    },
+    {
+        "codigo": "P0091",
+        "descricao": "ValvDosadComb Válvula dosadora de combustível"
+    },
+    {
+        "codigo": "P0092",
+        "descricao": "ValvDosadComb Válvula dosadora de combustível"
+    },
+    {
+        "codigo": "P0093",
+        "descricao": "VazamSistCombust Vazamento do sistema de combustível"
+    },
+    {
+        "codigo": "P0094",
+        "descricao": "VazamSistCombust Vazamento do sistema de combustível"
+    },
+    {
+        "codigo": "4",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0095",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P0096",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P0097",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P0098",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P0099",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P0100",
+        "descricao": "SensorMAF Sensor MAF"
+    },
+    {
+        "codigo": "P0101",
+        "descricao": "SensorMAF Sensor MAF"
+    },
+    {
+        "codigo": "P0102",
+        "descricao": "SensorMAF Sensor MAF"
+    },
+    {
+        "codigo": "P0103",
+        "descricao": "SensorMAF Sensor MAF"
+    },
+    {
+        "codigo": "P0104",
+        "descricao": "SensorMAF Sensor MAF"
+    },
+    {
+        "codigo": "P0105",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P0106",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P0107",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P0108",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P0109",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P0110",
+        "descricao": "CircTempArColet Circuito da temperatura do ar do coletor"
+    },
+    {
+        "codigo": "P0111",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P0112",
+        "descricao": "CircTempArColet Circuito da temperatura do ar do coletor"
+    },
+    {
+        "codigo": "P0113",
+        "descricao": "CircTempArColet Circuito da temperatura do ar do coletor"
+    },
+    {
+        "codigo": "P0114",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P0115",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P0116",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P0117",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P0118",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P0119",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P0120",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0121",
+        "descricao": "PotencBorboletaA Potenciômetro da borboleta A"
+    },
+    {
+        "codigo": "P0122",
+        "descricao": "PotencBorboletaA Potenciômetro da borboleta A"
+    },
+    {
+        "codigo": "P0123",
+        "descricao": "PotencBorboletaA Potenciômetro da borboleta A"
+    },
+    {
+        "codigo": "P0124",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0125",
+        "descricao": "TemperaturaAgua Temperatura da água"
+    },
+    {
+        "codigo": "P0126",
+        "descricao": "TemperaturaAgua Temperatura da água"
+    },
+    {
+        "codigo": "P0127",
+        "descricao": "TemperatAdmiss Temperatura da Admissão"
+    },
+    {
+        "codigo": "P0128",
+        "descricao": "TemperaturaAgua Temperatura da água"
+    },
+    {
+        "codigo": "P0129",
+        "descricao": "PressBarometrica Pressão barométrica"
+    },
+    {
+        "codigo": "P0130",
+        "descricao": "SondaLambda Sonda Lambda"
+    },
+    {
+        "codigo": "P0131",
+        "descricao": "SondaLambda1B1 Sonda Lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0132",
+        "descricao": "SondaLambda1B1 Sonda Lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0133",
+        "descricao": "SondaLambda1B1 Sonda Lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0134",
+        "descricao": "SondaLambda1B1 Sonda Lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0135",
+        "descricao": "AquecLambda1B1 Aquecedor da sonda lambda 1 banco 1"
+    },
+    {
+        "codigo": "P0136",
+        "descricao": "SondaLambda2B1 Sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0137",
+        "descricao": "SondaLambda2B1 Sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0138",
+        "descricao": "SondaLambda2B1 Sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0139",
+        "descricao": "SondaLambda2B1 Sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "5",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0140",
+        "descricao": "SondaLambda2B1 Sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0141",
+        "descricao": "AquecLambda2B1 Aquecedor da sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P0142",
+        "descricao": "AquecLambda3B1 Aquecedor da sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0143",
+        "descricao": "AquecLambda3B1 Aquecedor da sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0144",
+        "descricao": "SondaLambda3B1 Sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0145",
+        "descricao": "SondaLambda3B1 Sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0146",
+        "descricao": "SondaLambda3B1 Sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0147",
+        "descricao": "AquecLambda3B1 Aquecedor da sonda lambda 3 banco 1"
+    },
+    {
+        "codigo": "P0148",
+        "descricao": "RegFluxoCombust Regulador de fluxo de combustível"
+    },
+    {
+        "codigo": "P0149",
+        "descricao": "RegFluxoCombust Regulador de fluxo de combustível"
+    },
+    {
+        "codigo": "P0150",
+        "descricao": "SondaLambda1B2 Sonda Lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0151",
+        "descricao": "SondaLambda1B2 Sonda Lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0152",
+        "descricao": "SondaLambda1B2 Sonda Lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0153",
+        "descricao": "SondaLambda1B2 Sonda Lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0154",
+        "descricao": "SondaLambda1B2 Sonda Lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0155",
+        "descricao": "AquecLambda1B2 Aquecedor da sonda lambda 1 banco 2"
+    },
+    {
+        "codigo": "P0156",
+        "descricao": "SondaLambda2B2 Sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0157",
+        "descricao": "SondaLambda2B2 Sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0158",
+        "descricao": "SondaLambda2B2 Sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0159",
+        "descricao": "SondaLambda2B2 Sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0160",
+        "descricao": "SondaLambda2B2 Sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0161",
+        "descricao": "AquecLambda2B2 Aquecedor da sonda lambda 2 banco 2"
+    },
+    {
+        "codigo": "P0162",
+        "descricao": "SondaLambda3B2 Sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0163",
+        "descricao": "SondaLambda3B2 Sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0164",
+        "descricao": "SondaLambda3B2 Sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0165",
+        "descricao": "SondaLambda3B2 Sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0166",
+        "descricao": "SondaLambda3B2 Sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0167",
+        "descricao": "AquecLambda3B2 Aquecedor da sonda lambda 3 banco 2"
+    },
+    {
+        "codigo": "P0168",
+        "descricao": "SensTempCombust Sensor de temperatura do combustível"
+    },
+    {
+        "codigo": "P0169",
+        "descricao": "CompCombIncorr Composição do combustível incorreta"
+    },
+    {
+        "codigo": "P0170",
+        "descricao": "SondaLambda Sonda Lambda"
+    },
+    {
+        "codigo": "P0171",
+        "descricao": "MisturaMuitPobre Mistura muito pobre"
+    },
+    {
+        "codigo": "P0172",
+        "descricao": "MisturaMuitoRica Mistura muito rica"
+    },
+    {
+        "codigo": "P0173",
+        "descricao": "RegulacaoInjecao Regulação da injeção"
+    },
+    {
+        "codigo": "P0174",
+        "descricao": "MisturaMuitPobre Mistura muito pobre"
+    },
+    {
+        "codigo": "P0175",
+        "descricao": "MisturaMuitoRica Mistura muito rica"
+    },
+    {
+        "codigo": "P0176",
+        "descricao": "SensCompCombust Sensor de composição do combustível"
+    },
+    {
+        "codigo": "P0177",
+        "descricao": "SensCompCombust Sensor de composição do combustível"
+    },
+    {
+        "codigo": "P0178",
+        "descricao": "SensCompCombust Sensor de composição do combustível"
+    },
+    {
+        "codigo": "P0179",
+        "descricao": "SensCompCombust Sensor de composição do combustível"
+    },
+    {
+        "codigo": "P0180",
+        "descricao": "SensTempCombust Sensor de temperatura do combustível"
+    },
+    {
+        "codigo": "P0181",
+        "descricao": "SensTempCombust Sensor de temperatura do combustível"
+    },
+    {
+        "codigo": "P0182",
+        "descricao": "TemperatCombust Temperatura do combustível"
+    },
+    {
+        "codigo": "P0183",
+        "descricao": "TemperatCombust Temperatura do combustível"
+    },
+    {
+        "codigo": "P0184",
+        "descricao": "SensTempCombust Sensor de temperatura do combustível"
+    },
+    {
+        "codigo": "6",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0185",
+        "descricao": "SensTempCombust Sensor de temperatura do combustível"
+    },
+    {
+        "codigo": "P0186",
+        "descricao": "SensTempCombust Sensor de temperatura do combustível"
+    },
+    {
+        "codigo": "P0187",
+        "descricao": "TemperatCombust Temperatura do combustível"
+    },
+    {
+        "codigo": "P0188",
+        "descricao": "TemperatCombust Temperatura do combustível"
+    },
+    {
+        "codigo": "P0189",
+        "descricao": "SensTempCombust Sensor de temperatura do combustível"
+    },
+    {
+        "codigo": "P0190",
+        "descricao": "SensorPresCombus Sensor de pressão do combustível"
+    },
+    {
+        "codigo": "P0191",
+        "descricao": "SensorPresCombus Sensor de pressão do combustível"
+    },
+    {
+        "codigo": "P0192",
+        "descricao": "SensorPresCombus Sensor de pressão do combustível"
+    },
+    {
+        "codigo": "P0193",
+        "descricao": "SensorPresCombus Sensor de pressão do combustível"
+    },
+    {
+        "codigo": "P0194",
+        "descricao": "SensorPresCombus Sensor de pressão do combustível"
+    },
+    {
+        "codigo": "P0195",
+        "descricao": "SensorTempOleo Sensor de temperatura do óleo"
+    },
+    {
+        "codigo": "P0196",
+        "descricao": "SensorTempOleo Sensor de temperatura do óleo"
+    },
+    {
+        "codigo": "P0197",
+        "descricao": "SensorTempOleo Sensor de temperatura do óleo"
+    },
+    {
+        "codigo": "P0198",
+        "descricao": "SensorTempOleo Sensor de temperatura do óleo"
+    },
+    {
+        "codigo": "P0199",
+        "descricao": "SensorTempOleo Sensor de temperatura do óleo"
+    },
+    {
+        "codigo": "P0200",
+        "descricao": "Injetor Injetor"
+    },
+    {
+        "codigo": "P0201",
+        "descricao": "Injetor1 Injetor 1"
+    },
+    {
+        "codigo": "P0202",
+        "descricao": "Injetor2 Injetor 2"
+    },
+    {
+        "codigo": "P0203",
+        "descricao": "Injetor3 Injetor 3"
+    },
+    {
+        "codigo": "P0204",
+        "descricao": "Injetor4 Injetor 4"
+    },
+    {
+        "codigo": "P0205",
+        "descricao": "Injetor5 Injetor 5"
+    },
+    {
+        "codigo": "P0206",
+        "descricao": "Injetor6 Injetor 6"
+    },
+    {
+        "codigo": "P0207",
+        "descricao": "Injetor7 Injetor 7"
+    },
+    {
+        "codigo": "P0208",
+        "descricao": "Injetor8 Injetor 8"
+    },
+    {
+        "codigo": "P0209",
+        "descricao": "Injetor9 Injetor 9"
+    },
+    {
+        "codigo": "P0210",
+        "descricao": "Injetor10 Injetor 10"
+    },
+    {
+        "codigo": "P0211",
+        "descricao": "Injetor11 Injetor 11"
+    },
+    {
+        "codigo": "P0212",
+        "descricao": "Injetor12 Injetor 12"
+    },
+    {
+        "codigo": "P0213",
+        "descricao": "InjetorPartFrio Injetor de partida a frio"
+    },
+    {
+        "codigo": "P0214",
+        "descricao": "InjetorPartFrio Injetor de partida a frio"
+    },
+    {
+        "codigo": "P0215",
+        "descricao": "InterInercial Interruptor inercial"
+    },
+    {
+        "codigo": "P0216",
+        "descricao": "RegFluxoCombust Regulador de fluxo de combustível"
+    },
+    {
+        "codigo": "P0217",
+        "descricao": "TemperaturaMotor Temperatura do motor"
+    },
+    {
+        "codigo": "P0218",
+        "descricao": "TemperatTranmiss Temperatura da transmissão"
+    },
+    {
+        "codigo": "P0219",
+        "descricao": "Sobrerotacao Sobrerotação do motor"
+    },
+    {
+        "codigo": "P0220",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0221",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0222",
+        "descricao": "PotencBorboletaB Potenciômetro da borboleta B"
+    },
+    {
+        "codigo": "P0223",
+        "descricao": "PotencBorboletaB Potenciômetro da borboleta B"
+    },
+    {
+        "codigo": "P0224",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0225",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0226",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0227",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0228",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P0229",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "7",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0230",
+        "descricao": "ReleBombaCombust Relê da bomba de combustível"
+    },
+    {
+        "codigo": "P0231",
+        "descricao": "ReleBombaCombust Relê da bomba de combustível"
+    },
+    {
+        "codigo": "P0232",
+        "descricao": "ReleBombaCombust Relê da bomba de combustível"
+    },
+    {
+        "codigo": "P0233",
+        "descricao": "ReleBombaCombust Relê da bomba de combustível"
+    },
+    {
+        "codigo": "P0234",
+        "descricao": "SistemaTurbo Sistema turbo"
+    },
+    {
+        "codigo": "P0235",
+        "descricao": "SistemaTurbo Sistema turbo"
+    },
+    {
+        "codigo": "P0236",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P0237",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P0238",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P0239",
+        "descricao": "SemAplicPresente Nenhuma aplicação presente"
+    },
+    {
+        "codigo": "P0240",
+        "descricao": "SemAplicPresente Nenhuma aplicação presente"
+    },
+    {
+        "codigo": "P0241",
+        "descricao": "SemAplicPresente Nenhuma aplicação presente"
+    },
+    {
+        "codigo": "P0242",
+        "descricao": "SemAplicPresente Nenhuma aplicação presente"
+    },
+    {
+        "codigo": "P0243",
+        "descricao": "ValvAlivioTurbo Válvula de alívio do turbo"
+    },
+    {
+        "codigo": "P0244",
+        "descricao": "ValvAlivioTurbo Válvula de alívio do turbo"
+    },
+    {
+        "codigo": "P0245",
+        "descricao": "ValvAlivioTurbo Válvula de alívio do turbo"
+    },
+    {
+        "codigo": "P0246",
+        "descricao": "ValvAlivioTurbo Válvula de alívio do turbo"
+    },
+    {
+        "codigo": "P0247",
+        "descricao": "ValvAlivioTurbo Válvula de alívio do turbo"
+    },
+    {
+        "codigo": "P0248",
+        "descricao": "ValvAlivioTurbo Válvula de alívio do turbo"
+    },
+    {
+        "codigo": "P0249",
+        "descricao": "ValvAlivioTurbo Válvula de alívio do turbo"
+    },
+    {
+        "codigo": "P0250",
+        "descricao": "ValvAlivioTurbo Válvula de alívio do turbo"
+    },
+    {
+        "codigo": "P0251",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0252",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0253",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0254",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0255",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0256",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0257",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0258",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0259",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0260",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P0261",
+        "descricao": "Injetor1 Injetor 1"
+    },
+    {
+        "codigo": "P0262",
+        "descricao": "Injetor1 Injetor 1"
+    },
+    {
+        "codigo": "P0263",
+        "descricao": "FalhaIgnicaoCil1 Falha de ignição no cilindro 1"
+    },
+    {
+        "codigo": "P0264",
+        "descricao": "Injetor2 Injetor 2"
+    },
+    {
+        "codigo": "P0265",
+        "descricao": "Injetor2 Injetor 2"
+    },
+    {
+        "codigo": "P0266",
+        "descricao": "FalhaIgnicaoCil2 Falha de ignição no cilindro 2"
+    },
+    {
+        "codigo": "P0267",
+        "descricao": "Injetor3 Injetor 3"
+    },
+    {
+        "codigo": "P0268",
+        "descricao": "Injetor3 Injetor 3"
+    },
+    {
+        "codigo": "P0269",
+        "descricao": "FalhaIgnicaoCil3 Falha de ignição no cilindro 3"
+    },
+    {
+        "codigo": "P0270",
+        "descricao": "Injetor4 Injetor 4"
+    },
+    {
+        "codigo": "P0271",
+        "descricao": "Injetor4 Injetor 4"
+    },
+    {
+        "codigo": "P0272",
+        "descricao": "FalhaIgnicaoCil4 Falha de ignição no cilindro 4"
+    },
+    {
+        "codigo": "P0273",
+        "descricao": "Injetor5 Injetor 5"
+    },
+    {
+        "codigo": "P0274",
+        "descricao": "Injetor5 Injetor 5"
+    },
+    {
+        "codigo": "8",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0275",
+        "descricao": "FalhaIgnicaoCil5 Falha de ignição no cilindro 5"
+    },
+    {
+        "codigo": "P0276",
+        "descricao": "Injetor6 Injetor 6"
+    },
+    {
+        "codigo": "P0277",
+        "descricao": "Injetor6 Injetor 6"
+    },
+    {
+        "codigo": "P0278",
+        "descricao": "FalhaIgnicaoCil6 Falha de ignição no cilindro 6"
+    },
+    {
+        "codigo": "P0279",
+        "descricao": "Injetor7 Injetor 7"
+    },
+    {
+        "codigo": "P0280",
+        "descricao": "Injetor7 Injetor 7"
+    },
+    {
+        "codigo": "P0281",
+        "descricao": "FalhaIgnicaoCil7 Falha de ignição no cilindro 7"
+    },
+    {
+        "codigo": "P0282",
+        "descricao": "Injetor8 Injetor 8"
+    },
+    {
+        "codigo": "P0283",
+        "descricao": "Injetor8 Injetor 8"
+    },
+    {
+        "codigo": "P0284",
+        "descricao": "FalhaIgnicaoCil8 Falha de ignição no cilindro 8"
+    },
+    {
+        "codigo": "P0285",
+        "descricao": "Injetor9 Injetor 9"
+    },
+    {
+        "codigo": "P0286",
+        "descricao": "Injetor9 Injetor 9"
+    },
+    {
+        "codigo": "P0287",
+        "descricao": "FalhaIgnicaoCil9 Falha de ignição no cilindro 9"
+    },
+    {
+        "codigo": "P0288",
+        "descricao": "Injetor10 Injetor 10"
+    },
+    {
+        "codigo": "P0289",
+        "descricao": "Injetor10 Injetor 10"
+    },
+    {
+        "codigo": "P0290",
+        "descricao": "FalhaIgnicCil10 Falha de ignição no cilindro 10"
+    },
+    {
+        "codigo": "P0291",
+        "descricao": "Injetor11 Injetor 11"
+    },
+    {
+        "codigo": "P0292",
+        "descricao": "Injetor11 Injetor 11"
+    },
+    {
+        "codigo": "P0293",
+        "descricao": "FalhaIgnicCil11 Falha de ignição no cilindro 11"
+    },
+    {
+        "codigo": "P0294",
+        "descricao": "Injetor12 Injetor 12"
+    },
+    {
+        "codigo": "P0295",
+        "descricao": "Injetor12 Injetor 12"
+    },
+    {
+        "codigo": "P0296",
+        "descricao": "FalhaIgnicCil12 Falha de ignição no cilindro 12"
+    },
+    {
+        "codigo": "P0297",
+        "descricao": "Sobrevelocidade Sobrevelocidade"
+    },
+    {
+        "codigo": "P0298",
+        "descricao": "TempOleoAlta Temperatura do óleo alta"
+    },
+    {
+        "codigo": "P0299",
+        "descricao": "SistemaTurbo Sistema turbo"
+    },
+    {
+        "codigo": "P0300",
+        "descricao": "FalhaIgnicao Falha de ignição"
+    },
+    {
+        "codigo": "P0301",
+        "descricao": "FalhaIgnicaoCil1 Falha de ignição no cilindro 1"
+    },
+    {
+        "codigo": "P0302",
+        "descricao": "FalhaIgnicaoCil2 Falha de ignição no cilindro 2"
+    },
+    {
+        "codigo": "P0303",
+        "descricao": "FalhaIgnicaoCil3 Falha de ignição no cilindro 3"
+    },
+    {
+        "codigo": "P0304",
+        "descricao": "FalhaIgnicaoCil4 Falha de ignição no cilindro 4"
+    },
+    {
+        "codigo": "P0305",
+        "descricao": "FalhaIgnicaoCil5 Falha de ignição no cilindro 5"
+    },
+    {
+        "codigo": "P0306",
+        "descricao": "FalhaIgnicaoCil6 Falha de ignição no cilindro 6"
+    },
+    {
+        "codigo": "P0307",
+        "descricao": "FalhaIgnicaoCil7 Falha de ignição no cilindro 7"
+    },
+    {
+        "codigo": "P0308",
+        "descricao": "FalhaIgnicaoCil8 Falha de ignição no cilindro 8"
+    },
+    {
+        "codigo": "P0309",
+        "descricao": "FalhaIgnicaoCil9 Falha de ignição no cilindro 9"
+    },
+    {
+        "codigo": "P0310",
+        "descricao": "FalhaIgnicCil10 Falha de ignição no cilindro 10"
+    },
+    {
+        "codigo": "P0311",
+        "descricao": "FalhaIgnicCil11 Falha de ignição no cilindro 11"
+    },
+    {
+        "codigo": "P0312",
+        "descricao": "FalhaIgnicCil12 Falha de ignição no cilindro 12"
+    },
+    {
+        "codigo": "P0313",
+        "descricao": "FalhaIgnicaoCil Falha de ignição em cilindro"
+    },
+    {
+        "codigo": "P0314",
+        "descricao": "FalhaIgnicaoCil Falha de ignição em cilindro"
+    },
+    {
+        "codigo": "P0315",
+        "descricao": "PosicVirabrequim Posição do virabrequim"
+    },
+    {
+        "codigo": "P0316",
+        "descricao": "FalhaIgnicaoCil Falha de ignição em cilindro"
+    },
+    {
+        "codigo": "P0317",
+        "descricao": "SensTerrenIrreg Sensor de terreno irregular"
+    },
+    {
+        "codigo": "P0318",
+        "descricao": "SensTerrenIrreg Sensor de terreno irregular"
+    },
+    {
+        "codigo": "P0319",
+        "descricao": "SensTerrenIrreg Sensor de terreno irregular"
+    },
+    {
+        "codigo": "9",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0320",
+        "descricao": "SensorRotacao Sensor de rotação"
+    },
+    {
+        "codigo": "P0321",
+        "descricao": "SensorRotacao Sensor de rotação"
+    },
+    {
+        "codigo": "P0322",
+        "descricao": "SensorRotacao Sensor de rotação"
+    },
+    {
+        "codigo": "P0323",
+        "descricao": "SensorRotacao Sensor de rotação"
+    },
+    {
+        "codigo": "P0324",
+        "descricao": "Detonacao Detonação"
+    },
+    {
+        "codigo": "P0325",
+        "descricao": "SensorDetonacao Sensor de detonação"
+    },
+    {
+        "codigo": "P0326",
+        "descricao": "SensorDetonac1 Sensor de detonação 1"
+    },
+    {
+        "codigo": "P0327",
+        "descricao": "SensorDetonacao Sensor de detonação"
+    },
+    {
+        "codigo": "P0328",
+        "descricao": "SensorDetonac1 Sensor de detonação 1"
+    },
+    {
+        "codigo": "P0329",
+        "descricao": "SensorDetonac1 Sensor de detonação 1"
+    },
+    {
+        "codigo": "P0330",
+        "descricao": "SensorDetonac2 Sensor de detonação 2"
+    },
+    {
+        "codigo": "P0331",
+        "descricao": "SensorDetonac2 Sensor de detonação 2"
+    },
+    {
+        "codigo": "P0332",
+        "descricao": "SensorDetonac2 Sensor de detonação 2"
+    },
+    {
+        "codigo": "P0333",
+        "descricao": "SensorDetonac2 Sensor de detonação 2"
+    },
+    {
+        "codigo": "P0334",
+        "descricao": "SensorDetonac2 Sensor de detonação 2"
+    },
+    {
+        "codigo": "P0335",
+        "descricao": "SinalRotacao Sinal de rotação"
+    },
+    {
+        "codigo": "P0336",
+        "descricao": "SensorRotacao Sensor de rotação"
+    },
+    {
+        "codigo": "P0337",
+        "descricao": "SensorRotacao Sensor de rotação"
+    },
+    {
+        "codigo": "P0338",
+        "descricao": "SensorRotacao Sensor de rotação"
+    },
+    {
+        "codigo": "P0339",
+        "descricao": "SensorRotacao Sensor de rotação"
+    },
+    {
+        "codigo": "P0340",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0341",
+        "descricao": "PosicComanValv Posição do comando de válvulas"
+    },
+    {
+        "codigo": "P0342",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0343",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0344",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0345",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0346",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0347",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0348",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0349",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0350",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0351",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0352",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0353",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0354",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0355",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0356",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0357",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0358",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0359",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0360",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0361",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0362",
+        "descricao": "BobinaIgnicao Bobina de ignição"
+    },
+    {
+        "codigo": "P0363",
+        "descricao": "FalhaIgnicaoCil Falha de ignição em cilindro"
+    },
+    {
+        "codigo": "P0365",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "10",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0366",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0367",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0368",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0369",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0370",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0371",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0372",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0373",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0374",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0375",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0376",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0377",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0378",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0379",
+        "descricao": "ReferencRegulac Referência de regulação"
+    },
+    {
+        "codigo": "P0380",
+        "descricao": "VelaIgnicao Vela de ignição"
+    },
+    {
+        "codigo": "P0381",
+        "descricao": "VelaIgnicao Vela de ignição"
+    },
+    {
+        "codigo": "P0382",
+        "descricao": "VelaIgnicao Vela de ignição"
+    },
+    {
+        "codigo": "P0385",
+        "descricao": "PosicVirabrequim Posição do virabrequim"
+    },
+    {
+        "codigo": "P0386",
+        "descricao": "PosicVirabrequim Posição do virabrequim"
+    },
+    {
+        "codigo": "P0387",
+        "descricao": "PosicVirabrequim Posição do virabrequim"
+    },
+    {
+        "codigo": "P0388",
+        "descricao": "PosicVirabrequim Posição do virabrequim"
+    },
+    {
+        "codigo": "P0389",
+        "descricao": "PosicVirabrequim Posição do virabrequim"
+    },
+    {
+        "codigo": "P0391",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0392",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0393",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0394",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P0400",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0401",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0402",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0403",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0404",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0405",
+        "descricao": "SensorEGR Sensor de EGR"
+    },
+    {
+        "codigo": "P0406",
+        "descricao": "SensorEGR Sensor de EGR"
+    },
+    {
+        "codigo": "P0407",
+        "descricao": "SensorEGR Sensor de EGR"
+    },
+    {
+        "codigo": "P0408",
+        "descricao": "SensorEGR Sensor de EGR"
+    },
+    {
+        "codigo": "P0409",
+        "descricao": "SensorEGR Sensor de EGR"
+    },
+    {
+        "codigo": "P0410",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0411",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0412",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0413",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0414",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0415",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0416",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0417",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0418",
+        "descricao": "Rele Bomba Ar Rele da bomba de ar"
+    },
+    {
+        "codigo": "11",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0419",
+        "descricao": "Rele Bomba Ar Rele da bomba de ar"
+    },
+    {
+        "codigo": "P0420",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0421",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0422",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0423",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0424",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0425",
+        "descricao": "SensTempCatalis Sensor de temperatura do catalisador"
+    },
+    {
+        "codigo": "P0426",
+        "descricao": "SensTempCatalis Sensor de temperatura do catalisador"
+    },
+    {
+        "codigo": "P0427",
+        "descricao": "SensTempCatalis Sensor de temperatura do catalisador"
+    },
+    {
+        "codigo": "P0428",
+        "descricao": "SensTempCatalis Sensor de temperatura do catalisador"
+    },
+    {
+        "codigo": "P0429",
+        "descricao": "AquecCatalisador Aquecedor do catalisador"
+    },
+    {
+        "codigo": "P0430",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0431",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0432",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0433",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0434",
+        "descricao": "Catalisador Catalisador"
+    },
+    {
+        "codigo": "P0435",
+        "descricao": "SensTempCatalis Sensor de temperatura do catalisador"
+    },
+    {
+        "codigo": "P0436",
+        "descricao": "SensTempCatalis Sensor de temperatura do catalisador"
+    },
+    {
+        "codigo": "P0437",
+        "descricao": "SensTempCatalis Sensor de temperatura do catalisador"
+    },
+    {
+        "codigo": "P0438",
+        "descricao": "SensTempCatalis Sensor de temperatura do catalisador"
+    },
+    {
+        "codigo": "P0439",
+        "descricao": "AquecCatalisador Aquecedor do catalisador"
+    },
+    {
+        "codigo": "P0440",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0441",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P0442",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P0443",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P0444",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P0445",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P0446",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0447",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0448",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0449",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0450",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0451",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0452",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P0453",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P0454",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0455",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P0456",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0457",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0458",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0459",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0460",
+        "descricao": "SinalNivelTanque Sinal do nível do tanque"
+    },
+    {
+        "codigo": "P0461",
+        "descricao": "SensNivelTanque Sensor de nível do tanque"
+    },
+    {
+        "codigo": "P0462",
+        "descricao": "SensNivelTanque Sensor de nível do tanque"
+    },
+    {
+        "codigo": "P0463",
+        "descricao": "SensNivelTanque Sensor de nível do tanque"
+    },
+    {
+        "codigo": "12",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0464",
+        "descricao": "SensNivelTanque Sensor de nível do tanque"
+    },
+    {
+        "codigo": "P0465",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0466",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0467",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0468",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0469",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0470",
+        "descricao": "SensPressEscape Sensor de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0471",
+        "descricao": "SensPressEscape Sensor de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0472",
+        "descricao": "SensPressEscape Sensor de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0473",
+        "descricao": "SensPressEscape Sensor de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0474",
+        "descricao": "SensPressEscape Sensor de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0475",
+        "descricao": "ValvPressEscape Válvula de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0476",
+        "descricao": "ValvPressEscape Válvula de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0477",
+        "descricao": "ValvPressEscape Válvula de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0478",
+        "descricao": "ValvPressEscape Válvula de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0479",
+        "descricao": "ValvPressEscape Válvula de pressão do gás do escape"
+    },
+    {
+        "codigo": "P0480",
+        "descricao": "ContrVentBaixa Controle do ventilador - baixa velocidade"
+    },
+    {
+        "codigo": "P0481",
+        "descricao": "ContrVentAlta Controle do ventilador - alta velocidade"
+    },
+    {
+        "codigo": "P0482",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0483",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0484",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0485",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0486",
+        "descricao": "SensorEGR Sensor de EGR"
+    },
+    {
+        "codigo": "P0487",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0488",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0489",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0490",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P0491",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0492",
+        "descricao": "SistemaInjecaoAr Sistema de injeção de ar"
+    },
+    {
+        "codigo": "P0493",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0494",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0495",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0496",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0497",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0498",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0499",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P0500",
+        "descricao": "SinalVelocidade Sinal de velocidade"
+    },
+    {
+        "codigo": "P0501",
+        "descricao": "SensorVelocidade Sensor de velocidade do veículo"
+    },
+    {
+        "codigo": "P0502",
+        "descricao": "SensorVelocidade Sensor de velocidade do veículo"
+    },
+    {
+        "codigo": "P0503",
+        "descricao": "SensorVelocidade Sensor de velocidade do veículo"
+    },
+    {
+        "codigo": "P0504",
+        "descricao": "InterruptorFreio Interruptor do freio"
+    },
+    {
+        "codigo": "P0505",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P0506",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P0507",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P0508",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "13",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0509",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P0510",
+        "descricao": "InterPosicBorbol Interruptor de posição da borboleta"
+    },
+    {
+        "codigo": "P0511",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P0512",
+        "descricao": "MotorArranque Motor de arranque"
+    },
+    {
+        "codigo": "P0513",
+        "descricao": "ChaveIncorreta Chave Incorreta"
+    },
+    {
+        "codigo": "P0514",
+        "descricao": "SensTempBateria Sensor de temperatura da bateria"
+    },
+    {
+        "codigo": "P0515",
+        "descricao": "SensTempBateria Sensor de temperatura da bateria"
+    },
+    {
+        "codigo": "P0516",
+        "descricao": "SensTempBateria Sensor de temperatura da bateria"
+    },
+    {
+        "codigo": "P0517",
+        "descricao": "SensTempBateria Sensor de temperatura da bateria"
+    },
+    {
+        "codigo": "P0518",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P0519",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P0520",
+        "descricao": "SenPrOleo Sensor de Pressão do óleo"
+    },
+    {
+        "codigo": "P0521",
+        "descricao": "SenPrOleo Sensor de Pressão do óleo"
+    },
+    {
+        "codigo": "P0522",
+        "descricao": "SenPrOleo Sensor de Pressão do óleo"
+    },
+    {
+        "codigo": "P0523",
+        "descricao": "SenPrOleo Sensor de Pressão do óleo"
+    },
+    {
+        "codigo": "P0524",
+        "descricao": "PressaoOleoMotor Pressão do óleo do motor"
+    },
+    {
+        "codigo": "P0525",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0526",
+        "descricao": "SenVelocVentilad Sensor de velocidade do ventilador"
+    },
+    {
+        "codigo": "P0527",
+        "descricao": "SenVelocVentilad Sensor de velocidade do ventilador"
+    },
+    {
+        "codigo": "P0528",
+        "descricao": "SenVelocVentilad Sensor de velocidade do ventilador"
+    },
+    {
+        "codigo": "P0529",
+        "descricao": "SenVelocVentilad Sensor de velocidade do ventilador"
+    },
+    {
+        "codigo": "P0530",
+        "descricao": "SensorPressaoA/C Sensor de pressão do ar condicionado"
+    },
+    {
+        "codigo": "P0531",
+        "descricao": "SensorPressaoA/C Sensor de pressão do ar condicionado"
+    },
+    {
+        "codigo": "P0532",
+        "descricao": "SensorPressaoA/C Sensor de pressão do ar condicionado"
+    },
+    {
+        "codigo": "P0533",
+        "descricao": "SensorPressaoA/C Sensor de pressão do ar condicionado"
+    },
+    {
+        "codigo": "P0534",
+        "descricao": "SensorPressaoA/C Sensor de pressão do ar condicionado"
+    },
+    {
+        "codigo": "P0535",
+        "descricao": "SenTempEvapA/C Sensor de temperatura do evaporador do ar condicionado"
+    },
+    {
+        "codigo": "P0536",
+        "descricao": "SenTempEvapA/C Sensor de temperatura do evaporador do ar condicionado"
+    },
+    {
+        "codigo": "P0537",
+        "descricao": "SenTempEvapA/C Sensor de temperatura do evaporador do ar condicionado"
+    },
+    {
+        "codigo": "P0538",
+        "descricao": "SenTempEvapA/C Sensor de temperatura do evaporador do ar condicionado"
+    },
+    {
+        "codigo": "P0539",
+        "descricao": "SenTempEvapA/C Sensor de temperatura do evaporador do ar condicionado"
+    },
+    {
+        "codigo": "P0540",
+        "descricao": "AquecArAdmissao Aquecedor do ar de admissão"
+    },
+    {
+        "codigo": "P0541",
+        "descricao": "AquecArAdmissao Aquecedor do ar de admissão"
+    },
+    {
+        "codigo": "P0542",
+        "descricao": "AquecArAdmissao Aquecedor do ar de admissão"
+    },
+    {
+        "codigo": "P0543",
+        "descricao": "AquecArAdmissao Aquecedor do ar de admissão"
+    },
+    {
+        "codigo": "P0544",
+        "descricao": "SensorTempEGR Sensor de temperatura do EGR"
+    },
+    {
+        "codigo": "P0545",
+        "descricao": "SensorTempEGR Sensor de temperatura do EGR"
+    },
+    {
+        "codigo": "P0546",
+        "descricao": "SensorTempEGR Sensor de temperatura do EGR"
+    },
+    {
+        "codigo": "P0547",
+        "descricao": "SensTempEscape Sensor de temperatura do gás de escape"
+    },
+    {
+        "codigo": "P0548",
+        "descricao": "SensTempEscape Sensor de temperatura do gás de escape"
+    },
+    {
+        "codigo": "P0549",
+        "descricao": "SensTempEscape Sensor de temperatura do gás de escape"
+    },
+    {
+        "codigo": "P0550",
+        "descricao": "SensPresDirHidr Sensor de pressão da direção hidráulica"
+    },
+    {
+        "codigo": "P0551",
+        "descricao": "DirecHidraulica Direção Hidráulica"
+    },
+    {
+        "codigo": "P0552",
+        "descricao": "SensPresDirHidr Sensor de pressão da direção hidráulica"
+    },
+    {
+        "codigo": "P0553",
+        "descricao": "SensPresDirHidr Sensor de pressão da direção hidráulica"
+    },
+    {
+        "codigo": "14",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0554",
+        "descricao": "SensPresDirHidr Sensor de pressão da direção hidráulica"
+    },
+    {
+        "codigo": "P0555",
+        "descricao": "SenPresServFreio Sensor de pressão do servofreio"
+    },
+    {
+        "codigo": "P0556",
+        "descricao": "SenPresServFreio Sensor de pressão do servofreio"
+    },
+    {
+        "codigo": "P0557",
+        "descricao": "SenPresServFreio Sensor de pressão do servofreio"
+    },
+    {
+        "codigo": "P0558",
+        "descricao": "SenPresServFreio Sensor de pressão do servofreio"
+    },
+    {
+        "codigo": "P0559",
+        "descricao": "SenPresServFreio Sensor de pressão do servofreio"
+    },
+    {
+        "codigo": "P0560",
+        "descricao": "Tensao Bateria Tensão da bateria"
+    },
+    {
+        "codigo": "P0561",
+        "descricao": "Tensao Bateria Tensão da bateria"
+    },
+    {
+        "codigo": "P0562",
+        "descricao": "Tensao Bateria Tensão da bateria"
+    },
+    {
+        "codigo": "P0563",
+        "descricao": "Tensao Bateria Tensão da bateria"
+    },
+    {
+        "codigo": "P0564",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0565",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0566",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0567",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0568",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0569",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0570",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0571",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0572",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0573",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0574",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0575",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0576",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0577",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0578",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0579",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0580",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0581",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0582",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0583",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0584",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0585",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0586",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0587",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0588",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0589",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0590",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0591",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0592",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0593",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0594",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0595",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0596",
+        "descricao": "SistPilotoAutom Sistema de piloto automático"
+    },
+    {
+        "codigo": "P0597",
+        "descricao": "ContrAquTermost Controle de aquecimento do termostato"
+    },
+    {
+        "codigo": "P0598",
+        "descricao": "ContrAquTermost Controle de aquecimento do termostato"
+    },
+    {
+        "codigo": "15",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0599",
+        "descricao": "ContrAquTermost Controle de aquecimento do termostato"
+    },
+    {
+        "codigo": "P0600",
+        "descricao": "ComunicacaoCAN Problema na comunicação CAN"
+    },
+    {
+        "codigo": "P0601",
+        "descricao": "FalhaMemoriaECU Falha de memória da ECU"
+    },
+    {
+        "codigo": "P0602",
+        "descricao": "ProgramacaoECU Programação da ECU"
+    },
+    {
+        "codigo": "P0603",
+        "descricao": "FalhaMemoriaECU Falha de memória da ECU"
+    },
+    {
+        "codigo": "P0604",
+        "descricao": "FalhaECU Motor Falha na ECU do motor"
+    },
+    {
+        "codigo": "P0605",
+        "descricao": "FalhaMemoriaECU Falha de memória da ECU"
+    },
+    {
+        "codigo": "P0606",
+        "descricao": "FalhaECU Motor Falha na ECU do motor"
+    },
+    {
+        "codigo": "P0607",
+        "descricao": "MauFuncionam.ECU Mau funcionamento da ECU"
+    },
+    {
+        "codigo": "P0608",
+        "descricao": "FalhaECU Motor Falha na ECU do motor"
+    },
+    {
+        "codigo": "P0609",
+        "descricao": "FalhaECU Motor Falha na ECU do motor"
+    },
+    {
+        "codigo": "P0610",
+        "descricao": "FalhaECU Motor Falha na ECU do motor"
+    },
+    {
+        "codigo": "P0611",
+        "descricao": "ECUContrInjetor ECU de controle do injetor"
+    },
+    {
+        "codigo": "P0612",
+        "descricao": "ECUContrInjetor ECU de controle do injetor"
+    },
+    {
+        "codigo": "P0613",
+        "descricao": "ECUTransmissao ECU da transmissão"
+    },
+    {
+        "codigo": "P0614",
+        "descricao": "SinalTCM/ECM Sinal do TCM e ECM"
+    },
+    {
+        "codigo": "P0615",
+        "descricao": "ReleMotorArranq Relé do motor de arranque"
+    },
+    {
+        "codigo": "P0616",
+        "descricao": "ReleMotorArranq Relé do motor de arranque"
+    },
+    {
+        "codigo": "P0617",
+        "descricao": "ReleMotorArranq Relé do motor de arranque"
+    },
+    {
+        "codigo": "P0618",
+        "descricao": "ECUCombustAltern ECU de combustível alternativo"
+    },
+    {
+        "codigo": "P0619",
+        "descricao": "ECUCombustAltern ECU de combustível alternativo"
+    },
+    {
+        "codigo": "P0620",
+        "descricao": "Alternador Alternador"
+    },
+    {
+        "codigo": "P0621",
+        "descricao": "IndicAlternador Indicador do alternador"
+    },
+    {
+        "codigo": "P0622",
+        "descricao": "Alternador Alternador"
+    },
+    {
+        "codigo": "P0623",
+        "descricao": "IndicAlternador Indicador do alternador"
+    },
+    {
+        "codigo": "P0624",
+        "descricao": "IndicTampaComb Indicador da tampa de combustível"
+    },
+    {
+        "codigo": "P0625",
+        "descricao": "Alternador Alternador"
+    },
+    {
+        "codigo": "P0626",
+        "descricao": "Alternador Alternador"
+    },
+    {
+        "codigo": "P0627",
+        "descricao": "ContrBombaCombus Controle da bomba de combustível"
+    },
+    {
+        "codigo": "P0628",
+        "descricao": "ContrBombaCombus Controle da bomba de combustível"
+    },
+    {
+        "codigo": "P0629",
+        "descricao": "ContrBombaCombus Controle da bomba de combustível"
+    },
+    {
+        "codigo": "P0630",
+        "descricao": "NumeroVIN Número VIN (Número de indentificação do veículo)"
+    },
+    {
+        "codigo": "P0631",
+        "descricao": "NumeroVIN Número VIN (Número de indentificação do veículo)"
+    },
+    {
+        "codigo": "P0632",
+        "descricao": "HodomNaoProg Hodômetro não programado"
+    },
+    {
+        "codigo": "P0633",
+        "descricao": "ChaveNaoProgr Chave não programada"
+    },
+    {
+        "codigo": "P0634",
+        "descricao": "TemperaturaECU Temperatura da ECU"
+    },
+    {
+        "codigo": "P0635",
+        "descricao": "ContrDirecAssist Controle de direção assistida"
+    },
+    {
+        "codigo": "P0636",
+        "descricao": "ContrDirecAssist Controle de direção assistida"
+    },
+    {
+        "codigo": "P0637",
+        "descricao": "ContrDirecAssist Controle de direção assistida"
+    },
+    {
+        "codigo": "P0638",
+        "descricao": "AtuadorBorboleta Atuador da borboleta"
+    },
+    {
+        "codigo": "P0639",
+        "descricao": "AtuadorBorboleta Atuador da borboleta"
+    },
+    {
+        "codigo": "P0640",
+        "descricao": "AquecArAdmissao Aquecedor do ar de admissão"
+    },
+    {
+        "codigo": "P0641",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P0642",
+        "descricao": "FalhaECU Motor Falha na ECU do motor"
+    },
+    {
+        "codigo": "P0643",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "16",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0644",
+        "descricao": "ComputadorBordo Computador de bordo"
+    },
+    {
+        "codigo": "P0645",
+        "descricao": "ArCondicionado Ar Condicionado"
+    },
+    {
+        "codigo": "P0646",
+        "descricao": "ReleEmbreagA/C Relê da embreagem do ar condicionado"
+    },
+    {
+        "codigo": "P0647",
+        "descricao": "ReleEmbreagA/C Relê da embreagem do ar condicionado"
+    },
+    {
+        "codigo": "P0648",
+        "descricao": "IndicadorImobil Indicador do imobilizador"
+    },
+    {
+        "codigo": "P0649",
+        "descricao": "IndicPilotoAutom Indicador do piloto automático"
+    },
+    {
+        "codigo": "P0650",
+        "descricao": "LampDiagnost Lâmpada de diagnóstico"
+    },
+    {
+        "codigo": "P0651",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P0652",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P0653",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P0654",
+        "descricao": "SinalRotacao Sinal de rotação"
+    },
+    {
+        "codigo": "P0655",
+        "descricao": "IndicSobreaqMot Indicador de sobreaquecimento do motor"
+    },
+    {
+        "codigo": "P0656",
+        "descricao": "SaidNivelCombust Saida de nível de combustível"
+    },
+    {
+        "codigo": "P0657",
+        "descricao": "CircAlimentAtuad Circuito de alimentação dos atuadores"
+    },
+    {
+        "codigo": "P0658",
+        "descricao": "CircAlimentAtuad Circuito de alimentação dos atuadores"
+    },
+    {
+        "codigo": "P0659",
+        "descricao": "CircAlimentAtuad Circuito de alimentação dos atuadores"
+    },
+    {
+        "codigo": "P0660",
+        "descricao": "SolenControleAr Solenóide de controle de ar"
+    },
+    {
+        "codigo": "P0661",
+        "descricao": "SolenControleAr Solenóide de controle de ar"
+    },
+    {
+        "codigo": "P0662",
+        "descricao": "SolenControleAr Solenóide de controle de ar"
+    },
+    {
+        "codigo": "P0663",
+        "descricao": "SolenControleAr Solenóide de controle de ar"
+    },
+    {
+        "codigo": "P0664",
+        "descricao": "SolenControleAr Solenóide de controle de ar"
+    },
+    {
+        "codigo": "P0665",
+        "descricao": "SolenControleAr Solenóide de controle de ar"
+    },
+    {
+        "codigo": "P0666",
+        "descricao": "TemperaturaECU Temperatura da ECU"
+    },
+    {
+        "codigo": "P0667",
+        "descricao": "TemperaturaECU Temperatura da ECU"
+    },
+    {
+        "codigo": "P0668",
+        "descricao": "TemperaturaECU Temperatura da ECU"
+    },
+    {
+        "codigo": "P0669",
+        "descricao": "TemperaturaECU Temperatura da ECU"
+    },
+    {
+        "codigo": "P0670",
+        "descricao": "ECUContrVela ECU de controle das velas"
+    },
+    {
+        "codigo": "P0671",
+        "descricao": "VelaCilindro1 Vela Cilindro 1"
+    },
+    {
+        "codigo": "P0672",
+        "descricao": "VelaCilindro2 Vela Cilindro 2"
+    },
+    {
+        "codigo": "P0673",
+        "descricao": "VelaCilindro3 Vela Cilindro 3"
+    },
+    {
+        "codigo": "P0674",
+        "descricao": "VelaCilindro4 Vela Cilindro 4"
+    },
+    {
+        "codigo": "P0675",
+        "descricao": "VelaCilindro5 Vela Cilindro 5"
+    },
+    {
+        "codigo": "P0676",
+        "descricao": "VelaCilindro6 Vela Cilindro 6"
+    },
+    {
+        "codigo": "P0677",
+        "descricao": "VelaCilindro7 Vela Cilindro 7"
+    },
+    {
+        "codigo": "P0678",
+        "descricao": "VelaCilindro8 Vela Cilindro 8"
+    },
+    {
+        "codigo": "P0679",
+        "descricao": "VelaCilindro9 Vela Cilindro 9"
+    },
+    {
+        "codigo": "P0680",
+        "descricao": "VelaCilindro10 Vela Cilindro 10"
+    },
+    {
+        "codigo": "P0681",
+        "descricao": "VelaCilindro11 Vela Cilindro 11"
+    },
+    {
+        "codigo": "P0682",
+        "descricao": "VelaCilindro12 Vela Cilindro 12"
+    },
+    {
+        "codigo": "P0683",
+        "descricao": "LinkComunicacao Link de comunicação"
+    },
+    {
+        "codigo": "P0684",
+        "descricao": "LinkComunicacao Link de comunicação"
+    },
+    {
+        "codigo": "P0685",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0686",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0687",
+        "descricao": "ReleContrMotor Relé de controle do motor"
+    },
+    {
+        "codigo": "P0688",
+        "descricao": "ReleContrMotor Relé de controle do motor"
+    },
+    {
+        "codigo": "17",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0689",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0690",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0691",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0692",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0693",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0694",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0695",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0696",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P0697",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P0698",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P0699",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P0700",
+        "descricao": "SistContrTransm Sistema de controle da transmissão"
+    },
+    {
+        "codigo": "P0701",
+        "descricao": "SistContrTransm Sistema de controle da transmissão"
+    },
+    {
+        "codigo": "P0702",
+        "descricao": "SistContrTransm Sistema de controle da transmissão"
+    },
+    {
+        "codigo": "P0703",
+        "descricao": "ConversorTorque Conversor de torque"
+    },
+    {
+        "codigo": "P0704",
+        "descricao": "SinalIntEmbreag Sinal do interruptor da embreagem"
+    },
+    {
+        "codigo": "P0705",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0706",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0707",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0708",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0709",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0710",
+        "descricao": "SenTempOleoTrans Sensor de temperatura do óleo da transmissão"
+    },
+    {
+        "codigo": "P0711",
+        "descricao": "SenTempOleoTrans Sensor de temperatura do óleo da transmissão"
+    },
+    {
+        "codigo": "P0712",
+        "descricao": "SenTempOleoTrans Sensor de temperatura do óleo da transmissão"
+    },
+    {
+        "codigo": "P0713",
+        "descricao": "SenTempOleoTrans Sensor de temperatura do óleo da transmissão"
+    },
+    {
+        "codigo": "P0714",
+        "descricao": "SenTempOleoTrans Sensor de temperatura do óleo da transmissão"
+    },
+    {
+        "codigo": "P0715",
+        "descricao": "SenRotTurbina Sensor de rotação da turbina"
+    },
+    {
+        "codigo": "P0716",
+        "descricao": "SenRotTurbina Sensor de rotação da turbina"
+    },
+    {
+        "codigo": "P0717",
+        "descricao": "SenRotTurbina Sensor de rotação da turbina"
+    },
+    {
+        "codigo": "P0718",
+        "descricao": "SenRotTurbina Sensor de rotação da turbina"
+    },
+    {
+        "codigo": "P0719",
+        "descricao": "ConversorTorque Conversor de torque"
+    },
+    {
+        "codigo": "P0720",
+        "descricao": "SensorVelocidade Sensor de velocidade do veículo"
+    },
+    {
+        "codigo": "P0721",
+        "descricao": "SensorVelocidade Sensor de velocidade do veículo"
+    },
+    {
+        "codigo": "P0722",
+        "descricao": "SensorVelocidade Sensor de velocidade do veículo"
+    },
+    {
+        "codigo": "P0723",
+        "descricao": "SensorVelocidade Sensor de velocidade do veículo"
+    },
+    {
+        "codigo": "P0724",
+        "descricao": "ConversorTorque Conversor de torque"
+    },
+    {
+        "codigo": "P0725",
+        "descricao": "SinalRotacao Sinal de rotação"
+    },
+    {
+        "codigo": "P0726",
+        "descricao": "SinalRotacao Sinal de rotação"
+    },
+    {
+        "codigo": "P0727",
+        "descricao": "SinalRotacao Sinal de rotação"
+    },
+    {
+        "codigo": "P0728",
+        "descricao": "SinalRotacao Sinal de rotação"
+    },
+    {
+        "codigo": "P0730",
+        "descricao": "RelIncorMarcha Relação de marcha incorreta"
+    },
+    {
+        "codigo": "P0731",
+        "descricao": "RelIncorMarcha1 Relação incorreta da marcha 1"
+    },
+    {
+        "codigo": "P0732",
+        "descricao": "RelIncorMarcha2 Relação incorreta da marcha 2"
+    },
+    {
+        "codigo": "P0733",
+        "descricao": "RelIncorMarcha3 Relação incorreta da marcha 3"
+    },
+    {
+        "codigo": "P0734",
+        "descricao": "RelIncorMarcha4 Relação incorreta da marcha 4"
+    },
+    {
+        "codigo": "18",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0735",
+        "descricao": "RelIncorMarcha5 Relação incorreta da marcha 5"
+    },
+    {
+        "codigo": "P0736",
+        "descricao": "RelIncorMarchaRe Relação incorreta da marcha ré"
+    },
+    {
+        "codigo": "P0737",
+        "descricao": "SinalRotMtrTrans Sinal de rotação do motor na ECU da transmissão"
+    },
+    {
+        "codigo": "P0738",
+        "descricao": "SinalRotMtrTrans Sinal de rotação do motor na ECU da transmissão"
+    },
+    {
+        "codigo": "P0739",
+        "descricao": "SinalRotMtrTrans Sinal de rotação do motor na ECU da transmissão"
+    },
+    {
+        "codigo": "P0740",
+        "descricao": "ConversorTorque Conversor de torque"
+    },
+    {
+        "codigo": "P0741",
+        "descricao": "EmbrConvTorque Embreagem do conversor de torque"
+    },
+    {
+        "codigo": "P0742",
+        "descricao": "EmbrConvTorque Embreagem do conversor de torque"
+    },
+    {
+        "codigo": "P0743",
+        "descricao": "ConversorTorque Conversor de torque"
+    },
+    {
+        "codigo": "P0744",
+        "descricao": "EmbrConvTorque Embreagem do conversor de torque"
+    },
+    {
+        "codigo": "P0745",
+        "descricao": "ValPresOleoTrans Válvula de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0746",
+        "descricao": "ValPresOleoTrans Válvula de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0747",
+        "descricao": "ValPresOleoTrans Válvula de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0748",
+        "descricao": "ValPresOleoTrans Válvula de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0749",
+        "descricao": "ValPresOleoTrans Válvula de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0750",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P0751",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P0752",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P0753",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P0754",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P0755",
+        "descricao": "Solenoide 2-3 Solenoide 2-3"
+    },
+    {
+        "codigo": "P0756",
+        "descricao": "SolenMudancaB Solenóide de mudança B"
+    },
+    {
+        "codigo": "P0757",
+        "descricao": "SolenMudancaB Solenóide de mudança B"
+    },
+    {
+        "codigo": "P0758",
+        "descricao": "SolenMudancaB Solenóide de mudança B"
+    },
+    {
+        "codigo": "P0759",
+        "descricao": "SolenMudancaB Solenóide de mudança B"
+    },
+    {
+        "codigo": "P0760",
+        "descricao": "SolenMudancaC Solenóide de mudança C"
+    },
+    {
+        "codigo": "P0761",
+        "descricao": "SolenMudancaC Solenóide de mudança C"
+    },
+    {
+        "codigo": "P0762",
+        "descricao": "SolenMudancaC Solenóide de mudança C"
+    },
+    {
+        "codigo": "P0763",
+        "descricao": "SolenMudancaC Solenóide de mudança C"
+    },
+    {
+        "codigo": "P0764",
+        "descricao": "SolenMudancaC Solenóide de mudança C"
+    },
+    {
+        "codigo": "P0765",
+        "descricao": "SolenMudancaD Solenóide de mudança D"
+    },
+    {
+        "codigo": "P0766",
+        "descricao": "SolenMudancaD Solenóide de mudança D"
+    },
+    {
+        "codigo": "P0767",
+        "descricao": "SolenMudancaD Solenóide de mudança D"
+    },
+    {
+        "codigo": "P0768",
+        "descricao": "SolenMudancaD Solenóide de mudança D"
+    },
+    {
+        "codigo": "P0769",
+        "descricao": "SolenMudancaD Solenóide de mudança D"
+    },
+    {
+        "codigo": "P0770",
+        "descricao": "SolenMudancaE Solenóide de mudança E"
+    },
+    {
+        "codigo": "P0771",
+        "descricao": "SolenMudancaE Solenóide de mudança E"
+    },
+    {
+        "codigo": "P0772",
+        "descricao": "SolenMudancaE Solenóide de mudança E"
+    },
+    {
+        "codigo": "P0773",
+        "descricao": "SolenMudancaE Solenóide de mudança E"
+    },
+    {
+        "codigo": "P0774",
+        "descricao": "SolenMudancaE Solenóide de mudança E"
+    },
+    {
+        "codigo": "P0775",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "P0776",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "P0777",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "P0778",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "P0779",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "19",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0780",
+        "descricao": "FalhaMudanca Falha mudança"
+    },
+    {
+        "codigo": "P0781",
+        "descricao": "FalhaMudanca1-2 Falha mudança 1-2"
+    },
+    {
+        "codigo": "P0782",
+        "descricao": "FalhaMudanca2-3 Falha Mudança 2-3"
+    },
+    {
+        "codigo": "P0783",
+        "descricao": "FalhaMudanca3-4 Falha mudança 3-4"
+    },
+    {
+        "codigo": "P0784",
+        "descricao": "FalhaMudanca4-5 Falha mudança 4-5"
+    },
+    {
+        "codigo": "P0785",
+        "descricao": "SolenoideMudanca Solenóide mudança"
+    },
+    {
+        "codigo": "P0786",
+        "descricao": "SolenoideMudanca Solenóide mudança"
+    },
+    {
+        "codigo": "P0787",
+        "descricao": "SolenoideMudanca Solenóide mudança"
+    },
+    {
+        "codigo": "P0788",
+        "descricao": "SolenoideMudanca Solenóide mudança"
+    },
+    {
+        "codigo": "P0789",
+        "descricao": "SolenoideMudanca Solenóide mudança"
+    },
+    {
+        "codigo": "P0790",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0791",
+        "descricao": "SenVelEixoInterm Sensor de velocidade do eixo intermediário"
+    },
+    {
+        "codigo": "P0792",
+        "descricao": "SenVelEixoInterm Sensor de velocidade do eixo intermediário"
+    },
+    {
+        "codigo": "P0793",
+        "descricao": "SenVelEixoInterm Sensor de velocidade do eixo intermediário"
+    },
+    {
+        "codigo": "P0794",
+        "descricao": "SenVelEixoInterm Sensor de velocidade do eixo intermediário"
+    },
+    {
+        "codigo": "P0795",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0796",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0797",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0798",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0799",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0800",
+        "descricao": "SistContrTransm Sistema de controle da transmissão"
+    },
+    {
+        "codigo": "P0801",
+        "descricao": "SolenInibidorRe Solenóide inibidora da marcha ré"
+    },
+    {
+        "codigo": "P0802",
+        "descricao": "SistContrTransm Sistema de controle da transmissão"
+    },
+    {
+        "codigo": "P0803",
+        "descricao": "ValvMudanAscend Válvula de mudança ascendente"
+    },
+    {
+        "codigo": "P0804",
+        "descricao": "ValvMudanAscend Válvula de mudança ascendente"
+    },
+    {
+        "codigo": "P0805",
+        "descricao": "SistemaEmbreagem Sistema de embreagem"
+    },
+    {
+        "codigo": "P0806",
+        "descricao": "SistemaEmbreagem Sistema de embreagem"
+    },
+    {
+        "codigo": "P0807",
+        "descricao": "SistemaEmbreagem Sistema de embreagem"
+    },
+    {
+        "codigo": "P0808",
+        "descricao": "SistemaEmbreagem Sistema de embreagem"
+    },
+    {
+        "codigo": "P0809",
+        "descricao": "SistemaEmbreagem Sistema de embreagem"
+    },
+    {
+        "codigo": "P0810",
+        "descricao": "ContrPosicEmbr Controle de posição da embregem"
+    },
+    {
+        "codigo": "P0811",
+        "descricao": "EscorregEmbreag Escorregamento da embregem"
+    },
+    {
+        "codigo": "P0812",
+        "descricao": "MarchaRe Marcha Ré"
+    },
+    {
+        "codigo": "P0813",
+        "descricao": "MarchaRe Marcha Ré"
+    },
+    {
+        "codigo": "P0814",
+        "descricao": "DisplayMudMarcha Display de mudança de marcha"
+    },
+    {
+        "codigo": "P0815",
+        "descricao": "InterMudAscend Interruptor de mudança ascendente"
+    },
+    {
+        "codigo": "P0816",
+        "descricao": "InterMudDescend Interruptor de mudança descendente"
+    },
+    {
+        "codigo": "P0817",
+        "descricao": "DesabMotorArranq Desabilitação do motor de arranque"
+    },
+    {
+        "codigo": "P0818",
+        "descricao": "IntDescSistTrans Interruptor de desconexão do sistema de transmissão"
+    },
+    {
+        "codigo": "P0819",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0820",
+        "descricao": "SenPosAlavMudMar Sensor de posição da alavanca de mudança de marcha"
+    },
+    {
+        "codigo": "P0821",
+        "descricao": "SenPosAlavMudMar Sensor de posição da alavanca de mudança de marcha"
+    },
+    {
+        "codigo": "P0822",
+        "descricao": "SenPosAlavMudMar Sensor de posição da alavanca de mudança de marcha"
+    },
+    {
+        "codigo": "P0823",
+        "descricao": "SenPosAlavMudMar Sensor de posição da alavanca de mudança de marcha"
+    },
+    {
+        "codigo": "P0824",
+        "descricao": "SenPosAlavMudMar Sensor de posição da alavanca de mudança de marcha"
+    },
+    {
+        "codigo": "20",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0825",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0826",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0827",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0828",
+        "descricao": "InterrupMudanca Interruptor de Mudança"
+    },
+    {
+        "codigo": "P0829",
+        "descricao": "InterMudAscend Interruptor de mudança ascendente"
+    },
+    {
+        "codigo": "P0830",
+        "descricao": "SinalIntEmbreag Sinal do interruptor da embreagem"
+    },
+    {
+        "codigo": "P0831",
+        "descricao": "SinalIntEmbreag Sinal do interruptor da embreagem"
+    },
+    {
+        "codigo": "P0832",
+        "descricao": "SinalIntEmbreag Sinal do interruptor da embreagem"
+    },
+    {
+        "codigo": "P0833",
+        "descricao": "SinalIntEmbreag Sinal do interruptor da embreagem"
+    },
+    {
+        "codigo": "P0834",
+        "descricao": "SinalIntEmbreag Sinal do interruptor da embreagem"
+    },
+    {
+        "codigo": "P0835",
+        "descricao": "SinalIntEmbreag Sinal do interruptor da embreagem"
+    },
+    {
+        "codigo": "P0836",
+        "descricao": "Interruptor4x4 Interruptor 4x4"
+    },
+    {
+        "codigo": "P0837",
+        "descricao": "Interruptor4x4 Interruptor 4x4"
+    },
+    {
+        "codigo": "P0838",
+        "descricao": "Interruptor4x4 Interruptor 4x4"
+    },
+    {
+        "codigo": "P0839",
+        "descricao": "Interruptor4x4 Interruptor 4x4"
+    },
+    {
+        "codigo": "P0840",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0841",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0842",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0843",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0844",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0845",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0846",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0847",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0848",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0849",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0850",
+        "descricao": "InterruptorP/N Interruptor P/N"
+    },
+    {
+        "codigo": "P0851",
+        "descricao": "InterruptorP/N Interruptor P/N"
+    },
+    {
+        "codigo": "P0852",
+        "descricao": "InterruptorP/N Interruptor P/N"
+    },
+    {
+        "codigo": "P0853",
+        "descricao": "InterruptorD Interruptor D"
+    },
+    {
+        "codigo": "P0854",
+        "descricao": "InterruptorD Interruptor D"
+    },
+    {
+        "codigo": "P0855",
+        "descricao": "InterruptorD Interruptor D"
+    },
+    {
+        "codigo": "P0856",
+        "descricao": "SinalContrTrac Sinal do controle de tração"
+    },
+    {
+        "codigo": "P0857",
+        "descricao": "SinalContrTrac Sinal do controle de tração"
+    },
+    {
+        "codigo": "P0858",
+        "descricao": "SinalContrTrac Sinal do controle de tração"
+    },
+    {
+        "codigo": "P0859",
+        "descricao": "SinalContrTrac Sinal do controle de tração"
+    },
+    {
+        "codigo": "P0860",
+        "descricao": "LinkComunTransm Link de comunicação da transmissão"
+    },
+    {
+        "codigo": "P0861",
+        "descricao": "LinkComunTransm Link de comunicação da transmissão"
+    },
+    {
+        "codigo": "P0862",
+        "descricao": "LinkComunTransm Link de comunicação da transmissão"
+    },
+    {
+        "codigo": "P0863",
+        "descricao": "LinkComunTransm Link de comunicação da transmissão"
+    },
+    {
+        "codigo": "P0864",
+        "descricao": "LinkComunTransm Link de comunicação da transmissão"
+    },
+    {
+        "codigo": "P0865",
+        "descricao": "LinkComunTransm Link de comunicação da transmissão"
+    },
+    {
+        "codigo": "P0866",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0867",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0868",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0869",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "21",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0870",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0871",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0872",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0873",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0874",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0875",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0876",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0877",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0878",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0879",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0880",
+        "descricao": "ECUTransmissao ECU da transmissão"
+    },
+    {
+        "codigo": "P0881",
+        "descricao": "ECUTransmissao ECU da transmissão"
+    },
+    {
+        "codigo": "P0882",
+        "descricao": "ECUTransmissao ECU da transmissão"
+    },
+    {
+        "codigo": "P0883",
+        "descricao": "ECUTransmissao ECU da transmissão"
+    },
+    {
+        "codigo": "P0884",
+        "descricao": "ECUTransmissao ECU da transmissão"
+    },
+    {
+        "codigo": "P0885",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0886",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0887",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0888",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0889",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0890",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0891",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0892",
+        "descricao": "ReleAlimentECU Relé de alimentação da ECU"
+    },
+    {
+        "codigo": "P0893",
+        "descricao": "VariasMarchasEng Várias marchas engatadas"
+    },
+    {
+        "codigo": "P0894",
+        "descricao": "EscorregTransmis Escorregamento da transmissão"
+    },
+    {
+        "codigo": "P0895",
+        "descricao": "TempMudanMarcPeq Tempo de mudança de marcha pequeno"
+    },
+    {
+        "codigo": "P0896",
+        "descricao": "TempMudanMarcLon Tempo de mudança de marcha longo"
+    },
+    {
+        "codigo": "P0897",
+        "descricao": "OleoTransmDeter Óleo da transmissão deteriorado"
+    },
+    {
+        "codigo": "P0898",
+        "descricao": "SistContrTransm Sistema de controle da transmissão"
+    },
+    {
+        "codigo": "P0899",
+        "descricao": "SistContrTransm Sistema de controle da transmissão"
+    },
+    {
+        "codigo": "P0900",
+        "descricao": "AtuadorEmbreagem Atuador da embreagem"
+    },
+    {
+        "codigo": "P0901",
+        "descricao": "AtuadorEmbreagem Atuador da embreagem"
+    },
+    {
+        "codigo": "P0902",
+        "descricao": "AtuadorEmbreagem Atuador da embreagem"
+    },
+    {
+        "codigo": "P0903",
+        "descricao": "AtuadorEmbreagem Atuador da embreagem"
+    },
+    {
+        "codigo": "P0904",
+        "descricao": "CircPosicNeutro Circuito da posição neutro"
+    },
+    {
+        "codigo": "P0905",
+        "descricao": "CircPosicNeutro Circuito da posição neutro"
+    },
+    {
+        "codigo": "P0906",
+        "descricao": "CircPosicNeutro Circuito da posição neutro"
+    },
+    {
+        "codigo": "P0907",
+        "descricao": "CircPosicNeutro Circuito da posição neutro"
+    },
+    {
+        "codigo": "P0908",
+        "descricao": "CircPosicNeutro Circuito da posição neutro"
+    },
+    {
+        "codigo": "P0909",
+        "descricao": "RegulPosicNeutro Regulação da posição neutro"
+    },
+    {
+        "codigo": "P0910",
+        "descricao": "AtuadPosicNeutro Atuador da posição neutro"
+    },
+    {
+        "codigo": "P0911",
+        "descricao": "AtuadPosicNeutro Atuador da posição neutro"
+    },
+    {
+        "codigo": "P0912",
+        "descricao": "AtuadPosicNeutro Atuador da posição neutro"
+    },
+    {
+        "codigo": "P0913",
+        "descricao": "AtuadPosicNeutro Atuador da posição neutro"
+    },
+    {
+        "codigo": "P0914",
+        "descricao": "CircPosicMarcha Circuito de posição da marcha"
+    },
+    {
+        "codigo": "22",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0915",
+        "descricao": "CircPosicMarcha Circuito de posição da marcha"
+    },
+    {
+        "codigo": "P0916",
+        "descricao": "CircPosicMarcha Circuito de posição da marcha"
+    },
+    {
+        "codigo": "P0917",
+        "descricao": "CircPosicMarcha Circuito de posição da marcha"
+    },
+    {
+        "codigo": "P0918",
+        "descricao": "CircPosicMarcha Circuito de posição da marcha"
+    },
+    {
+        "codigo": "P0919",
+        "descricao": "ContrPosicMarcha Controle de posição da marcha"
+    },
+    {
+        "codigo": "P0920",
+        "descricao": "IndicMudanAscend Indicador de mudança ascendente"
+    },
+    {
+        "codigo": "P0921",
+        "descricao": "IndicMudanAscend Indicador de mudança ascendente"
+    },
+    {
+        "codigo": "P0922",
+        "descricao": "IndicMudanAscend Indicador de mudança ascendente"
+    },
+    {
+        "codigo": "P0923",
+        "descricao": "IndicMudanAscend Indicador de mudança ascendente"
+    },
+    {
+        "codigo": "P0924",
+        "descricao": "InterMudDescend Interruptor de mudança descendente"
+    },
+    {
+        "codigo": "P0925",
+        "descricao": "InterMudDescend Interruptor de mudança descendente"
+    },
+    {
+        "codigo": "P0926",
+        "descricao": "InterMudDescend Interruptor de mudança descendente"
+    },
+    {
+        "codigo": "P0927",
+        "descricao": "InterMudDescend Interruptor de mudança descendente"
+    },
+    {
+        "codigo": "P0928",
+        "descricao": "ValvulaShiftLock Válvula Shift Lock"
+    },
+    {
+        "codigo": "P0929",
+        "descricao": "ValvulaShiftLock Válvula Shift Lock"
+    },
+    {
+        "codigo": "P0930",
+        "descricao": "ValvulaShiftLock Válvula Shift Lock"
+    },
+    {
+        "codigo": "P0931",
+        "descricao": "ValvulaShiftLock Válvula Shift Lock"
+    },
+    {
+        "codigo": "P0932",
+        "descricao": "SenPresHidraulic Sensor de pressão hidráulica"
+    },
+    {
+        "codigo": "P0933",
+        "descricao": "SenPresHidraulic Sensor de pressão hidráulica"
+    },
+    {
+        "codigo": "P0934",
+        "descricao": "SenPresHidraulic Sensor de pressão hidráulica"
+    },
+    {
+        "codigo": "P0935",
+        "descricao": "SenPresHidraulic Sensor de pressão hidráulica"
+    },
+    {
+        "codigo": "P0936",
+        "descricao": "SenPresHidraulic Sensor de pressão hidráulica"
+    },
+    {
+        "codigo": "P0937",
+        "descricao": "SensTempOleoHidr Sensor de temperatura do óleo hidráulico"
+    },
+    {
+        "codigo": "P0938",
+        "descricao": "SensTempOleoHidr Sensor de temperatura do óleo hidráulico"
+    },
+    {
+        "codigo": "P0939",
+        "descricao": "SensTempOleoHidr Sensor de temperatura do óleo hidráulico"
+    },
+    {
+        "codigo": "P0940",
+        "descricao": "SensTempOleoHidr Sensor de temperatura do óleo hidráulico"
+    },
+    {
+        "codigo": "P0941",
+        "descricao": "SensTempOleoHidr Sensor de temperatura do óleo hidráulico"
+    },
+    {
+        "codigo": "P0942",
+        "descricao": "UnidPresHidraul Unidade de pressão hidráulica"
+    },
+    {
+        "codigo": "P0943",
+        "descricao": "UnidPresHidraul Unidade de pressão hidráulica"
+    },
+    {
+        "codigo": "P0944",
+        "descricao": "UnidPresHidraul Unidade de pressão hidráulica"
+    },
+    {
+        "codigo": "P0945",
+        "descricao": "ReleBombaHidraul Relé da bomba hidráulica"
+    },
+    {
+        "codigo": "P0946",
+        "descricao": "ReleBombaHidraul Relé da bomba hidráulica"
+    },
+    {
+        "codigo": "P0947",
+        "descricao": "ReleBombaHidraul Relé da bomba hidráulica"
+    },
+    {
+        "codigo": "P0948",
+        "descricao": "ReleBombaHidraul Relé da bomba hidráulica"
+    },
+    {
+        "codigo": "P0949",
+        "descricao": "EmbreagAutomatic Embreagem automática"
+    },
+    {
+        "codigo": "P0950",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "P0951",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "P0952",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "P0953",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "P0954",
+        "descricao": "EmbreagAutomatic Embreagem automática"
+    },
+    {
+        "codigo": "P0955",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "P0956",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "P0957",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "P0958",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "P0959",
+        "descricao": "CircEmbreagAutom Circuito da embreagem automática"
+    },
+    {
+        "codigo": "23",
+        "descricao": ""
+    },
+    {
+        "codigo": "P0960",
+        "descricao": "SolContrPresA Solenóide de controle da pressão A"
+    },
+    {
+        "codigo": "P0961",
+        "descricao": "SolContrPresA Solenóide de controle da pressão A"
+    },
+    {
+        "codigo": "P0962",
+        "descricao": "SolContrPresA Solenóide de controle da pressão A"
+    },
+    {
+        "codigo": "P0963",
+        "descricao": "SolContrPresA Solenóide de controle da pressão A"
+    },
+    {
+        "codigo": "P0964",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "P0965",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "P0966",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "P0967",
+        "descricao": "SolContrPresB Solenóide de controle da pressão B"
+    },
+    {
+        "codigo": "P0968",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0969",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0970",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0971",
+        "descricao": "SolContrPresC Solenóide de controle de pressão C"
+    },
+    {
+        "codigo": "P0972",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P0973",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P0974",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P0975",
+        "descricao": "SolenMudancaB Solenóide de mudança B"
+    },
+    {
+        "codigo": "P0976",
+        "descricao": "SolenMudancaB Solenóide de mudança B"
+    },
+    {
+        "codigo": "P0977",
+        "descricao": "SolenMudancaB Solenóide de mudança B"
+    },
+    {
+        "codigo": "P0978",
+        "descricao": "SolenMudancaC Solenóide de mudança C"
+    },
+    {
+        "codigo": "P0979",
+        "descricao": "SolenMudancaC Solenóide de mudança C"
+    },
+    {
+        "codigo": "P0980",
+        "descricao": "SolenMudancaC Solenóide de mudança C"
+    },
+    {
+        "codigo": "P0981",
+        "descricao": "SolenMudancaD Solenóide de mudança D"
+    },
+    {
+        "codigo": "P0982",
+        "descricao": "SolenMudancaD Solenóide de mudança D"
+    },
+    {
+        "codigo": "P0983",
+        "descricao": "SolenMudancaD Solenóide de mudança D"
+    },
+    {
+        "codigo": "P0984",
+        "descricao": "SolenMudancaE Solenóide de mudança E"
+    },
+    {
+        "codigo": "P0985",
+        "descricao": "SolenMudancaE Solenóide de mudança E"
+    },
+    {
+        "codigo": "P0986",
+        "descricao": "SolenMudancaE Solenóide de mudança E"
+    },
+    {
+        "codigo": "P0987",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0988",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0989",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0990",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0991",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0992",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0993",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0994",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0995",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0996",
+        "descricao": "SenPresOleoTrans Sensor de pressão do óleo da transmissão"
+    },
+    {
+        "codigo": "P0997",
+        "descricao": "SolenMudancaF Solenóide de mudança F"
+    },
+    {
+        "codigo": "P0998",
+        "descricao": "SolenMudancaF Solenóide de mudança F"
+    },
+    {
+        "codigo": "P0999",
+        "descricao": "SolenMudancaF Solenóide de mudança F"
+    },
+    {
+        "codigo": "P1000",
+        "descricao": "DiagInternIncomp Diagnóstico interno incompleto"
+    },
+    {
+        "codigo": "P1001",
+        "descricao": "DiagInternIncomp Diagnóstico interno incompleto"
+    },
+    {
+        "codigo": "P1101",
+        "descricao": "SensorMAF Sensor MAF"
+    },
+    {
+        "codigo": "P1105",
+        "descricao": "SensorBarometric Sensor barométrico"
+    },
+    {
+        "codigo": "P1106",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "24",
+        "descricao": ""
+    },
+    {
+        "codigo": "P1107",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P1109",
+        "descricao": "CircValvulaIMT Circuito da válvula IMT (intake manifold timing)"
+    },
+    {
+        "codigo": "P1111",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P1112",
+        "descricao": "SensTempAr Sensor de Temperatura do Ar de Admissão"
+    },
+    {
+        "codigo": "P1114",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P1115",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P1116",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P1117",
+        "descricao": "SensTempAgua Sensor de Temperatura da água"
+    },
+    {
+        "codigo": "P1120",
+        "descricao": "CircPosicBorbol Circuito do sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P1121",
+        "descricao": "CircPosicBorbol Circuito do sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P1122",
+        "descricao": "CircPosicBorbol Circuito do sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P1124",
+        "descricao": "CircPosicBorbol Circuito do sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P1125",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P1130",
+        "descricao": "SondaLambda1B1 Sonda Lambda 1 banco 1"
+    },
+    {
+        "codigo": "P1131",
+        "descricao": "SondaLambda2B1 Sonda lambda 2 banco 1"
+    },
+    {
+        "codigo": "P1132",
+        "descricao": "SondaLambda1B2 Sonda Lambda 1 banco 2"
+    },
+    {
+        "codigo": "P1133",
+        "descricao": "SondaLambda1B1 Sonda Lambda 1 banco 1"
+    },
+    {
+        "codigo": "P1134",
+        "descricao": "SondaLambda1B1 Sonda Lambda 1 banco 1"
+    },
+    {
+        "codigo": "P1153",
+        "descricao": "SondaLambda1B2 Sonda Lambda 1 banco 2"
+    },
+    {
+        "codigo": "P1154",
+        "descricao": "SondaLambda1B2 Sonda Lambda 1 banco 2"
+    },
+    {
+        "codigo": "P1167",
+        "descricao": "SondaLambda Sonda Lambda"
+    },
+    {
+        "codigo": "P1171",
+        "descricao": "SondaLambda Sonda Lambda"
+    },
+    {
+        "codigo": "P1173",
+        "descricao": "TemperaturaMotor Temperatura do motor"
+    },
+    {
+        "codigo": "P1195",
+        "descricao": "IntPressaoOleo Interruptor de pressão do óleo"
+    },
+    {
+        "codigo": "P1220",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P1224",
+        "descricao": "SensorPosicBorb Sensor de posição da borboleta"
+    },
+    {
+        "codigo": "P1230",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P1231",
+        "descricao": "ReleBombaCombust Relê da bomba de combustível"
+    },
+    {
+        "codigo": "P1232",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P1233",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P1234",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P1235",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P1236",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P1237",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P1238",
+        "descricao": "BombaCombustivel Bomba de combustível"
+    },
+    {
+        "codigo": "P1260",
+        "descricao": "TentativaRoubo Tentativa de roubo"
+    },
+    {
+        "codigo": "P1270",
+        "descricao": "RotacMaximMotor Rotação máxima do motor"
+    },
+    {
+        "codigo": "P1289",
+        "descricao": "SenTempCabCilind Sensor de temperatura da cabeça do cilindro"
+    },
+    {
+        "codigo": "P1290",
+        "descricao": "SenTempCabCilind Sensor de temperatura da cabeça do cilindro"
+    },
+    {
+        "codigo": "P1294",
+        "descricao": "MarchaLenta Marcha-lenta"
+    },
+    {
+        "codigo": "P1296",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P1297",
+        "descricao": "SensorMAP Sensor MAP"
+    },
+    {
+        "codigo": "P1299",
+        "descricao": "MarchaLenta Marcha-lenta"
+    },
+    {
+        "codigo": "P1336",
+        "descricao": "PosicVirabrequim Posição do virabrequim"
+    },
+    {
+        "codigo": "P1345",
+        "descricao": "SincVirabComValv Sincronismo entre virabrequim e comando de válvulas"
+    },
+    {
+        "codigo": "25",
+        "descricao": ""
+    },
+    {
+        "codigo": "P1351",
+        "descricao": "SistemaIgnicao Sistema de ignição"
+    },
+    {
+        "codigo": "P1352",
+        "descricao": "SistemaIgnicao Sistema de ignição"
+    },
+    {
+        "codigo": "P1353",
+        "descricao": "SistemaIgnicao Sistema de ignição"
+    },
+    {
+        "codigo": "P1358",
+        "descricao": "SistemaIgnicao Sistema de ignição"
+    },
+    {
+        "codigo": "P1359",
+        "descricao": "SistemaIgnicao Sistema de ignição"
+    },
+    {
+        "codigo": "P1361",
+        "descricao": "SistemaIgnicao Sistema de ignição"
+    },
+    {
+        "codigo": "P1380",
+        "descricao": "FalhaIgnicao Falha de ignição"
+    },
+    {
+        "codigo": "P1381",
+        "descricao": "FalhaIgnicao Falha de ignição"
+    },
+    {
+        "codigo": "P1390",
+        "descricao": "RegulOctanComb Regulação devido a octanagem do combustível"
+    },
+    {
+        "codigo": "P1391",
+        "descricao": "SensorFase Sensor de posição do comando de vávulas"
+    },
+    {
+        "codigo": "P1392",
+        "descricao": "SensTerrenIrreg Sensor de terreno irregular"
+    },
+    {
+        "codigo": "P1393",
+        "descricao": "SensTerrenIrreg Sensor de terreno irregular"
+    },
+    {
+        "codigo": "P1396",
+        "descricao": "SensVelocidRoda Sensor de velocidade da roda"
+    },
+    {
+        "codigo": "P1397",
+        "descricao": "SensVelocidRoda Sensor de velocidade da roda"
+    },
+    {
+        "codigo": "P1398",
+        "descricao": "ControlTorqTrans Controle de torque da transmissão"
+    },
+    {
+        "codigo": "P1400",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P1401",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P1404",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P1405",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P1406",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P1408",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P1409",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P1410",
+        "descricao": "SensorPresTanque Sensor de pressão do tanque"
+    },
+    {
+        "codigo": "P1413",
+        "descricao": "BombaDeAr Bomba de ar"
+    },
+    {
+        "codigo": "P1414",
+        "descricao": "BombaDeAr Bomba de ar"
+    },
+    {
+        "codigo": "P1441",
+        "descricao": "PurgaEVAP Purga do sistema de emissão evaporativa EVAP"
+    },
+    {
+        "codigo": "P1443",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "P1451",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P1460",
+        "descricao": "ArCondicionado Ar Condicionado"
+    },
+    {
+        "codigo": "P1461",
+        "descricao": "SensorPressaoA/C Sensor de pressão do ar condicionado"
+    },
+    {
+        "codigo": "P1462",
+        "descricao": "SensorPressaoA/C Sensor de pressão do ar condicionado"
+    },
+    {
+        "codigo": "P1464",
+        "descricao": "ArCondicionado Ar Condicionado"
+    },
+    {
+        "codigo": "P1473",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P1474",
+        "descricao": "ContrVentBaixa Controle do ventilador - baixa velocidade"
+    },
+    {
+        "codigo": "P1479",
+        "descricao": "ContrVentAlta Controle do ventilador - alta velocidade"
+    },
+    {
+        "codigo": "P1480",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P1481",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P1482",
+        "descricao": "ControleVentil2 Controle do ventilador 2"
+    },
+    {
+        "codigo": "P1483",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P1484",
+        "descricao": "Ventilador Ventilador"
+    },
+    {
+        "codigo": "P1487",
+        "descricao": "SistemaEGR Sistema EGR"
+    },
+    {
+        "codigo": "P1489",
+        "descricao": "ContrVentAlta Controle do ventilador - alta velocidade"
+    },
+    {
+        "codigo": "P1490",
+        "descricao": "ContrVentBaixa Controle do ventilador - baixa velocidade"
+    },
+    {
+        "codigo": "P1492",
+        "descricao": "Tensao Bateria Tensão da bateria"
+    },
+    {
+        "codigo": "P1493",
+        "descricao": "Tensao Bateria Tensão da bateria"
+    },
+    {
+        "codigo": "26",
+        "descricao": ""
+    },
+    {
+        "codigo": "P1494",
+        "descricao": "SistemaCanister Sistema Canister"
+    },
+    {
+        "codigo": "P1496",
+        "descricao": "Alimentacao ECU Alimentação da ECU"
+    },
+    {
+        "codigo": "P1498",
+        "descricao": "ContrVentAlta Controle do ventilador - alta velocidade"
+    },
+    {
+        "codigo": "P1500",
+        "descricao": "SensorVelocidade Sensor de velocidade do veículo"
+    },
+    {
+        "codigo": "P1501",
+        "descricao": "Imobilizador Imobilizador"
+    },
+    {
+        "codigo": "P1502",
+        "descricao": "Imobilizador Imobilizador"
+    },
+    {
+        "codigo": "P1503",
+        "descricao": "Imobilizador Imobilizador"
+    },
+    {
+        "codigo": "P1504",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1505",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1508",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1509",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1510",
+        "descricao": "InterruptorML Interruptor da marcha lenta"
+    },
+    {
+        "codigo": "P1516",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1517",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1518",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1519",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1520",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1530",
+        "descricao": "ReleA/C Relé do ar condicionado"
+    },
+    {
+        "codigo": "P1537",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1538",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1539",
+        "descricao": "EmbreagemA/C Embreagem do ar condicionado"
+    },
+    {
+        "codigo": "P1540",
+        "descricao": "SensorPressaoA/C Sensor de pressão do ar condicionado"
+    },
+    {
+        "codigo": "P1549",
+        "descricao": "SistControleML Sistema de controle de marcha lenta"
+    },
+    {
+        "codigo": "P1550",
+        "descricao": "SistemaContrTrac Sistema de controle de tração"
+    },
+    {
+        "codigo": "P1560",
+        "descricao": "ChaveIgnicao Chave ignição"
+    },
+    {
+        "codigo": "P1571",
+        "descricao": "InterruptorFreio Interruptor do freio"
+    },
+    {
+        "codigo": "P1572",
+        "descricao": "SistemaABS Sistema ABS"
+    },
+    {
+        "codigo": "P1600",
+        "descricao": "MauFuncionam.ECU Mau funcionamento da ECU"
+    },
+    {
+        "codigo": "P1601",
+        "descricao": "LinkComunTransm Link de comunicação da transmissão"
+    },
+    {
+        "codigo": "P1602",
+        "descricao": "MauFuncionam.ECU Mau funcionamento da ECU"
+    },
+    {
+        "codigo": "P1604",
+        "descricao": "MauFuncionam.ECU Mau funcionamento da ECU"
+    },
+    {
+        "codigo": "P1605",
+        "descricao": "MauFuncionam.ECU Mau funcionamento da ECU"
+    },
+    {
+        "codigo": "P1607",
+        "descricao": "MauFuncionam.ECU Mau funcionamento da ECU"
+    },
+    {
+        "codigo": "P1608",
+        "descricao": "MotorEmbreagem Motor da embreagem"
+    },
+    {
+        "codigo": "P1609",
+        "descricao": "MauFuncionam.ECU Mau funcionamento da ECU"
+    },
+    {
+        "codigo": "P1610",
+        "descricao": "ImobNaoProgramad Imobilizador não programado"
+    },
+    {
+        "codigo": "P1611",
+        "descricao": "CodSegurIncorret Código de segurança incorreto"
+    },
+    {
+        "codigo": "P1612",
+        "descricao": "SinalImobilizad Sinal do imobilizador"
+    },
+    {
+        "codigo": "P1613",
+        "descricao": "SinalImobilizad Sinal do imobilizador"
+    },
+    {
+        "codigo": "P1614",
+        "descricao": "ChaveIncorreta Chave Incorreta"
+    },
+    {
+        "codigo": "P1615",
+        "descricao": "DadosInvCarroc Dados inválidos do módulo de controle da carroceria"
+    },
+    {
+        "codigo": "P1616",
+        "descricao": "DadosInvPainel Dados inválidos do módulo de controle do painel"
+    },
+    {
+        "codigo": "P1620",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P1625",
+        "descricao": "Alimentacao ECU Alimentação da ECU"
+    },
+    {
+        "codigo": "P1626",
+        "descricao": "Alimentacao ECU Alimentação da ECU"
+    },
+    {
+        "codigo": "27",
+        "descricao": ""
+    },
+    {
+        "codigo": "P1630",
+        "descricao": "ReleBombaCombust Relê da bomba de combustível"
+    },
+    {
+        "codigo": "P1631",
+        "descricao": "SinalImobilizad Sinal do imobilizador"
+    },
+    {
+        "codigo": "P1635",
+        "descricao": "TensaoReferenc Tensão de referência"
+    },
+    {
+        "codigo": "P1650",
+        "descricao": "InterPresDirHidr Interruptor de pressão da direção hidráulica"
+    },
+    {
+        "codigo": "P1651",
+        "descricao": "DirecHidraulica Direção Hidráulica"
+    },
+    {
+        "codigo": "P1655",
+        "descricao": "MauFuncionam.ECU Mau funcionamento da ECU"
+    },
+    {
+        "codigo": "P1696",
+        "descricao": "Falha EEPROM Falha na memória EEPROM"
+    },
+    {
+        "codigo": "P1697",
+        "descricao": "LampDiagnost Lâmpada de diagnóstico"
+    },
+    {
+        "codigo": "P1698",
+        "descricao": "LinkComunicacao Link de comunicação"
+    },
+    {
+        "codigo": "P1700",
+        "descricao": "Transmissao Transmissão"
+    },
+    {
+        "codigo": "P1703",
+        "descricao": "InterruptorFreio Interruptor do freio"
+    },
+    {
+        "codigo": "P1705",
+        "descricao": "InterruptorP/N Interruptor P/N"
+    },
+    {
+        "codigo": "P1706",
+        "descricao": "TemperEmbreagem Temperatura da embreagem"
+    },
+    {
+        "codigo": "P1707",
+        "descricao": "AjusteEmbreagem Ajuste da embreagem"
+    },
+    {
+        "codigo": "P1709",
+        "descricao": "InterruptorP/N Interruptor P/N"
+    },
+    {
+        "codigo": "P1710",
+        "descricao": "SensVelocidRoda Sensor de velocidade da roda"
+    },
+    {
+        "codigo": "P1711",
+        "descricao": "SenTempOleoTrans Sensor de temperatura do óleo da transmissão"
+    },
+    {
+        "codigo": "P1712",
+        "descricao": "SensVelocRodaDD Sensor de velocidade da roda dianteira direita"
+    },
+    {
+        "codigo": "P1722",
+        "descricao": "AtuadorSelecao Atuador Seleção"
+    },
+    {
+        "codigo": "P1723",
+        "descricao": "AtuadorSelecao Atuador Seleção"
+    },
+    {
+        "codigo": "P1725",
+        "descricao": "MotorMudanca Motor de mudança"
+    },
+    {
+        "codigo": "P1726",
+        "descricao": "MotorMudanca Motor de mudança"
+    },
+    {
+        "codigo": "P1727",
+        "descricao": "MotorMudanca Motor de mudança"
+    },
+    {
+        "codigo": "P1728",
+        "descricao": "MotorMudanca Motor de mudança"
+    },
+    {
+        "codigo": "P1729",
+        "descricao": "MotorMudanca Motor de mudança"
+    },
+    {
+        "codigo": "P1730",
+        "descricao": "MotorMudanca Motor de mudança"
+    },
+    {
+        "codigo": "P1731",
+        "descricao": "TemperatTranmiss Temperatura da transmissão"
+    },
+    {
+        "codigo": "P1732",
+        "descricao": "CaixaTransmissao Caixa de transmissão"
+    },
+    {
+        "codigo": "P1733",
+        "descricao": "ErroConfiguracao Erro de configuração"
+    },
+    {
+        "codigo": "P1734",
+        "descricao": "AjusteEmbreagem Ajuste da embreagem"
+    },
+    {
+        "codigo": "P1735",
+        "descricao": "AprendizTransmis Aprendizado da transmissão"
+    },
+    {
+        "codigo": "P1740",
+        "descricao": "TemperatTranmiss Temperatura da transmissão"
+    },
+    {
+        "codigo": "P1746",
+        "descricao": "ControlTorqTrans Controle de torque da transmissão"
+    },
+    {
+        "codigo": "P1747",
+        "descricao": "ControlTorqTrans Controle de torque da transmissão"
+    },
+    {
+        "codigo": "P1779",
+        "descricao": "SinTorqueMotor Sinal do torque do motor"
+    },
+    {
+        "codigo": "P1789",
+        "descricao": "SolenMudancaA Solenóide de mudança A"
+    },
+    {
+        "codigo": "P1813",
+        "descricao": "SinalTorque Sinal de torque"
+    },
+    {
+        "codigo": "P1870",
+        "descricao": "ConversorTorque Conversor de torque"
+    },
+    {
+        "codigo": "P1895",
+        "descricao": "SinTorqueMotor Sinal do torque do motor"
+    },
+    {
+        "codigo": "P1896",
+        "descricao": "SinTorqueMotor Sinal do torque do motor"
+    },
+    {
+        "codigo": "P1899",
+        "descricao": "InterruptorP/N Interruptor P/N"
+    },
+    {
+        "codigo": "P2195",
+        "descricao": "SondaLambda Sonda Lambda"
+    },
+    {
+        "codigo": "P2196",
+        "descricao": "SondaLambda Sonda Lambda"
+    },
+    {
+        "codigo": "P2279",
+        "descricao": "VazamArAdmissao Vazamento de ar da admissão"
+    },
+    {
+        "codigo": "P2422",
+        "descricao": "ValvulaCanister Válvula Canister"
+    },
+    {
+        "codigo": "28",
+        "descricao": ""
+    },
+    {
+        "codigo": "P2610",
+        "descricao": "TemporDeslMotor Temporizador de desligamento do motor"
+    },
+    {
+        "codigo": "U2100",
+        "descricao": "FalhaNaCAN Falha na CAN"
+    },
+    {
+        "codigo": "U2101",
+        "descricao": "FalhaNaCAN Falha na CAN"
+    },
+    {
+        "codigo": "U2103",
+        "descricao": "FalhaNaCAN Falha na CAN"
+    },
+    {
+        "codigo": "U2104",
+        "descricao": "FalhaNaCAN Falha na CAN"
+    },
+    {
+        "codigo": "U2105",
+        "descricao": "FalhaNaCAN Falha na CAN"
+    },
+    {
+        "codigo": "U2106",
+        "descricao": "ComunicTransAut Comunicação da transmissão automática"
+    },
+    {
+        "codigo": "U2107",
+        "descricao": "LinkComunCarroc Link de comunicação do módulo de controle da carroceria"
+    },
+    {
+        "codigo": "U2108",
+        "descricao": "ComunicacABS CAN Comunicação com ABS pela CAN"
+    },
+    {
+        "codigo": "29",
+        "descricao": ""
+    }
+]
