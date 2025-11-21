@@ -32,5 +32,22 @@ Tudo rodando dentro de **Docker**, pronto para qualquer computador.
 
 ---
 
+```
+bash
+[
+    {
+        "code": "P0301",
+        "description": "Falha de ignição detectada no cilindro 1.",
+        "video": "r8j0XNqcUxc"
+    },
+    {
+        "code": "P0420",
+        "description": "Eficiência do catalisador abaixo do limite.",
+        "video": ""
+    }
+]
+```
+formato novo json
+
 ## 📂 Estrutura do projeto
 
